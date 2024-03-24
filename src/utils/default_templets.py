@@ -212,7 +212,7 @@ const default_test_code = (
     }
 </style>
 <section class="test">
-    <h1>Welcome to <span>JS-CLI</span></h1>
+    <h1>Welcome to <span>Admin-CLI</span></h1>
     <p>
         Now that the App is running with live-server, if you want to change
         the document, please edit the index.html or src/index.js
