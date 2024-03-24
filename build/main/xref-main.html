@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>modulegraph cross reference for main.py, pyi_rth_inspect.py</title>
+    <title>modulegraph cross reference for main.py, pyi_rth_inspect.py, pyi_rth_pkgres.py, pyi_rth_pkgutil.py</title>
     <style>
       .node { padding: 0.5em 0 0.5em; border-top: thin grey dotted; }
       .moduletype { font: smaller italic }
@@ -11,11 +11,11 @@
     </style>
   </head>
   <body>
-    <h1>modulegraph cross reference for main.py, pyi_rth_inspect.py</h1>
+    <h1>modulegraph cross reference for main.py, pyi_rth_inspect.py, pyi_rth_pkgres.py, pyi_rth_pkgutil.py</h1>
 
 <div class="node">
   <a name="main.py"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/main.py" type="text/plain"><tt>main.py</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/main.py" type="text/plain"><tt>main.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
     <a href="#_collections_abc">_collections_abc</a>
@@ -160,6 +160,8 @@ imports:
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
@@ -198,11 +200,66 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="'click._bashcomplete'"></a>
-  <a target="code" href="" type="text/plain"><tt>'click._bashcomplete'</tt></a>
+  <a name="pyi_rth_pkgres.py"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py" type="text/plain"><tt>pyi_rth_pkgres.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pyimod02_importers">pyimod02_importers</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyi_rth_pkgutil.py"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py" type="text/plain"><tt>pyi_rth_pkgutil.py</tt></a>
+<span class="moduletype">Script</span>  <div class="import">
+imports:
+    <a href="#_pyi_rth_utils">_pyi_rth_utils</a>
+ &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#pyimod02_importers">pyimod02_importers</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'click.shell_completion'"></a>
+  <a target="code" href="" type="text/plain"><tt>'click.shell_completion'</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#typer._completion_click7">typer._completion_click7</a>
+    <a href="#typer._completion_click8">typer._completion_click8</a>
+ &#8226;   <a href="#typer.completion">typer.completion</a>
+ &#8226;   <a href="#typer.core">typer.core</a>
+ &#8226;   <a href="#typer.models">typer.models</a>
+ &#8226;   <a href="#typer.params">typer.params</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'com.sun'"></a>
+  <a target="code" href="" type="text/plain"><tt>'com.sun'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
 
   </div>
 
@@ -214,6 +271,7 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#platform">platform</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
 
   </div>
 
@@ -225,6 +283,19 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#copy">copy</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="'pkg_resources.extern.pyparsing'"></a>
+  <a target="code" href="" type="text/plain"><tt>'pkg_resources.extern.pyparsing'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
 
   </div>
 
@@ -364,10 +435,63 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="'win32com.shell'"></a>
+  <a target="code" href="" type="text/plain"><tt>'win32com.shell'</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="__builtin__"></a>
+  <a target="code" href="" type="text/plain"><tt>__builtin__</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="__future__"></a>
+  <a target="code" href="/usr/lib/python3.10/__future__.py" type="text/plain"><tt>__future__</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imported by:
+    <a href="#click._unicodefun">click._unicodefun</a>
+ &#8226;   <a href="#codeop">codeop</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_abc"></a>
   <tt>_abc</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#abc">abc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_aix_support"></a>
+  <a target="code" href="/usr/lib/python3.10/_aix_support.py" type="text/plain"><tt>_aix_support</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_bootsubprocess">_bootsubprocess</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#sysconfig">sysconfig</a>
 
   </div>
 
@@ -398,6 +522,22 @@ imported by:
   <tt>_blake2</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#hashlib">hashlib</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_bootsubprocess"></a>
+  <a target="code" href="/usr/lib/python3.10/_bootsubprocess.py" type="text/plain"><tt>_bootsubprocess</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_aix_support">_aix_support</a>
 
   </div>
 
@@ -632,6 +772,7 @@ imported by:
 imported by:
     <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -645,6 +786,7 @@ imported by:
     <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -684,9 +826,13 @@ imported by:
   <a name="_imp"></a>
   <tt>_imp</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -698,6 +844,7 @@ imported by:
 imported by:
     <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -719,6 +866,18 @@ imported by:
   <tt>_lzma</tt> <span class="moduletype"><tt>/usr/lib/python3.10/lib-dynload/_lzma.cpython-310-x86_64-linux-gnu.so</tt></span>  <div class="import">
 imported by:
     <a href="#lzma">lzma</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_manylinux"></a>
+  <a target="code" href="" type="text/plain"><tt>_manylinux</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
 
   </div>
 
@@ -859,10 +1018,38 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_pyi_rth_utils"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/PyInstaller/fake-modules/_pyi_rth_utils/__init__.py" type="text/plain"><tt>_pyi_rth_utils</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_random"></a>
   <tt>_random</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#random">random</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="_scproxy"></a>
+  <a target="code" href="" type="text/plain"><tt>_scproxy</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -947,6 +1134,21 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_ssl"></a>
+  <tt>_ssl</tt> <span class="moduletype"><tt>/usr/lib/python3.10/lib-dynload/_ssl.cpython-310-x86_64-linux-gnu.so</tt></span>  <div class="import">
+imports:
+    <a href="#socket">socket</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ssl">ssl</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_stat"></a>
   <tt>_stat</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -1010,12 +1212,24 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_sysconfigdata__x86_64-linux-gnu"></a>
+  <a target="code" href="/usr/lib/python3.10/_sysconfigdata__x86_64-linux-gnu.py" type="text/plain"><tt>_sysconfigdata__x86_64-linux-gnu</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imported by:
+    <a href="#sysconfig">sysconfig</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_thread"></a>
   <tt>_thread</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
@@ -1068,6 +1282,7 @@ imported by:
 imported by:
     <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -1080,6 +1295,7 @@ imported by:
     <a href="#_weakrefset">_weakrefset</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#weakref">weakref</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
 
   </div>
 
@@ -1111,6 +1327,7 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#encodings">encodings</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#subprocess">subprocess</a>
 
@@ -1123,7 +1340,8 @@ imported by:
   <a target="code" href="" type="text/plain"><tt>_winreg</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#platform">platform</a>
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#platform">platform</a>
 
   </div>
 
@@ -1153,6 +1371,8 @@ imported by:
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#numbers">numbers</a>
  &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#typing_extensions">typing_extensions</a>
@@ -1180,8 +1400,10 @@ imports:
 imported by:
     <a href="#ast">ast</a>
  &#8226;   <a href="#calendar">calendar</a>
+ &#8226;   <a href="#code">code</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#tarfile">tarfile</a>
@@ -1196,7 +1418,8 @@ imported by:
   <a name="array"></a>
   <tt>array</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#socket">socket</a>
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#socket">socket</a>
 
   </div>
 
@@ -1220,6 +1443,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#inspect">inspect</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
 
   </div>
 
@@ -1254,6 +1478,30 @@ imported by:
  &#8226;   <a href="#email.base64mime">email.base64mime</a>
  &#8226;   <a href="#email.encoders">email.encoders</a>
  &#8226;   <a href="#encodings.base64_codec">encodings.base64_codec</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="bdb"></a>
+  <a target="code" href="/usr/lib/python3.10/bdb.py" type="text/plain"><tt>bdb</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
 
   </div>
 
@@ -1270,6 +1518,8 @@ imported by:
  &#8226;   <a href="#email.header">email.header</a>
  &#8226;   <a href="#encodings.hex_codec">encodings.hex_codec</a>
  &#8226;   <a href="#encodings.uu_codec">encodings.uu_codec</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#uu">uu</a>
  &#8226;   <a href="#zipfile">zipfile</a>
@@ -1290,6 +1540,7 @@ imports:
 imported by:
     <a href="#random">random</a>
  &#8226;   <a href="#statistics">statistics</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -1308,6 +1559,7 @@ imported by:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#lzma">lzma</a>
  &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tarfile">tarfile</a>
@@ -1357,6 +1609,8 @@ imports:
 imported by:
     <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#email._parseaddr">email._parseaddr</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#ssl">ssl</a>
 
   </div>
 
@@ -1367,8 +1621,7 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/click/__init__.py" type="text/plain"><tt>click</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
- &#8226;   <a href="#click.core">click.core</a>
+    <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
  &#8226;   <a href="#click.formatting">click.formatting</a>
@@ -1381,10 +1634,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click">click</a>
+    <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click._compat">click._compat</a>
  &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
  &#8226;   <a href="#click._textwrap">click._textwrap</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
@@ -1392,7 +1646,6 @@ imported by:
  &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#click.globals">click.globals</a>
  &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
@@ -1412,6 +1665,32 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="click._bashcomplete"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/click/_bashcomplete.py" type="text/plain"><tt>click._bashcomplete</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#click">click</a>
+ &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click.parser">click.parser</a>
+ &#8226;   <a href="#click.types">click.types</a>
+ &#8226;   <a href="#click.utils">click.utils</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#click.core">click.core</a>
+ &#8226;   <a href="#typer._completion_click7">typer._completion_click7</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="click._compat"></a>
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/click/_compat.py" type="text/plain"><tt>click._compat</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -1420,21 +1699,24 @@ imports:
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#colorama">colorama</a>
- &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#fcntl">fcntl</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#locale">locale</a>
+ &#8226;   <a href="#msvcrt">msvcrt</a>
  &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#weakref">weakref</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
+ &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
  &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#click.termui">click.termui</a>
@@ -1453,24 +1735,19 @@ imports:
     <a href="#click">click</a>
  &#8226;   <a href="#click._compat">click._compat</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#contextlib">contextlib</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#math">math</a>
  &#8226;   <a href="#msvcrt">msvcrt</a>
- &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#termios">termios</a>
  &#8226;   <a href="#time">time</a>
  &#8226;   <a href="#tty">tty</a>
- &#8226;   <a href="#types">types</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib">urllib</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
   </div>
@@ -1490,12 +1767,36 @@ imports:
     <a href="#click">click</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#textwrap">textwrap</a>
- &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click.formatting">click.formatting</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="click._unicodefun"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/click/_unicodefun.py" type="text/plain"><tt>click._unicodefun</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#click">click</a>
+ &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#codecs">codecs</a>
+ &#8226;   <a href="#locale">locale</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click.decorators">click.decorators</a>
 
   </div>
 
@@ -1512,14 +1813,16 @@ imports:
  &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#msvcrt">msvcrt</a>
+ &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#time">time</a>
- &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#zlib">zlib</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click.utils">click.utils</a>
 
   </div>
 
@@ -1531,40 +1834,32 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
+ &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
  &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#click.globals">click.globals</a>
  &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
- &#8226;   <a href="#collections">collections</a>
- &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#contextlib">contextlib</a>
- &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#errno">errno</a>
  &#8226;   <a href="#functools">functools</a>
- &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#itertools">itertools</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#types">types</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
+ &#8226;   <a href="#warnings">warnings</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.exceptions">click.exceptions</a>
- &#8226;   <a href="#click.globals">click.globals</a>
- &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
- &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#typer.core">typer.core</a>
 
   </div>
@@ -1577,18 +1872,15 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.globals">click.globals</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#functools">functools</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#importlib">importlib</a>
- &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
- &#8226;   <a href="#importlib_metadata">importlib_metadata</a>
  &#8226;   <a href="#inspect">inspect</a>
- &#8226;   <a href="#types">types</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#sys">sys</a>
 
   </div>
   <div class="import">
@@ -1607,10 +1899,7 @@ imported by:
 imports:
     <a href="#click">click</a>
  &#8226;   <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.utils">click.utils</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -1637,10 +1926,8 @@ imports:
  &#8226;   <a href="#click._compat">click._compat</a>
  &#8226;   <a href="#click._textwrap">click._textwrap</a>
  &#8226;   <a href="#click.parser">click.parser</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#contextlib">contextlib</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#shutil">shutil</a>
- &#8226;   <a href="#typing">typing</a>
 
   </div>
   <div class="import">
@@ -1659,10 +1946,7 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#click">click</a>
- &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#threading">threading</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
 
   </div>
   <div class="import">
@@ -1683,54 +1967,19 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#click">click</a>
- &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
  &#8226;   <a href="#collections">collections</a>
- &#8226;   <a href="#difflib">difflib</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#shlex">shlex</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
+ &#8226;   <a href="#re">re</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.formatting">click.formatting</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#typer._completion_click8">typer._completion_click8</a>
  &#8226;   <a href="#typer.core">typer.core</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="click.shell_completion"></a>
-  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/click/shell_completion.py" type="text/plain"><tt>click.shell_completion</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#click">click</a>
- &#8226;   <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.utils">click.utils</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#re">re</a>
- &#8226;   <a href="#subprocess">subprocess</a>
- &#8226;   <a href="#typing">typing</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.types">click.types</a>
- &#8226;   <a href="#typer._completion_click8">typer._completion_click8</a>
- &#8226;   <a href="#typer.completion">typer.completion</a>
- &#8226;   <a href="#typer.core">typer.core</a>
- &#8226;   <a href="#typer.models">typer.models</a>
- &#8226;   <a href="#typer.params">typer.params</a>
 
   </div>
 
@@ -1748,19 +1997,23 @@ imports:
  &#8226;   <a href="#click.globals">click.globals</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
+ &#8226;   <a href="#fcntl">fcntl</a>
  &#8226;   <a href="#getpass">getpass</a>
- &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#inspect">inspect</a>
- &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#struct">struct</a>
  &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#termios">termios</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
  &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#typer">typer</a>
 
   </div>
@@ -1774,25 +2027,18 @@ imported by:
 imports:
     <a href="#click">click</a>
  &#8226;   <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#datetime">datetime</a>
- &#8226;   <a href="#gettext">gettext</a>
- &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#stat">stat</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
  &#8226;   <a href="#uuid">uuid</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#typer.core">typer.core</a>
@@ -1808,31 +2054,64 @@ imported by:
 imports:
     <a href="#click">click</a>
  &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
  &#8226;   <a href="#click.globals">click.globals</a>
  &#8226;   <a href="#errno">errno</a>
- &#8226;   <a href="#functools">functools</a>
- &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#types">types</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#typing_extensions">typing_extensions</a>
 
   </div>
   <div class="import">
 imported by:
     <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.exceptions">click.exceptions</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#typer">typer</a>
  &#8226;   <a href="#typer.core">typer.core</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="cmd"></a>
+  <a target="code" href="/usr/lib/python3.10/cmd.py" type="text/plain"><tt>cmd</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#readline">readline</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="code"></a>
+  <a target="code" href="/usr/lib/python3.10/code.py" type="text/plain"><tt>code</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#argparse">argparse</a>
+ &#8226;   <a href="#codeop">codeop</a>
+ &#8226;   <a href="#readline">readline</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
 
   </div>
 
@@ -1853,6 +2132,7 @@ imports:
 imported by:
     <a href="#_pickle">_pickle</a>
  &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
  &#8226;   <a href="#encodings.base64_codec">encodings.base64_codec</a>
@@ -1976,7 +2256,26 @@ imported by:
  &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="codeop"></a>
+  <a target="code" href="/usr/lib/python3.10/codeop.py" type="text/plain"><tt>codeop</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__future__">__future__</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#code">code</a>
 
   </div>
 
@@ -1990,6 +2289,8 @@ imports:
     <a href="#_collections">_collections</a>
  &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_weakref">_weakref</a>
+ &#8226;   <a href="#collections.Iterable">collections.Iterable</a>
+ &#8226;   <a href="#collections.MutableMapping">collections.MutableMapping</a>
  &#8226;   <a href="#copy">copy</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#itertools">itertools</a>
@@ -2003,11 +2304,10 @@ imports:
 imported by:
     <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#ast">ast</a>
- &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click.parser">click.parser</a>
  &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#contextlib">contextlib</a>
- &#8226;   <a href="#difflib">difflib</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
  &#8226;   <a href="#functools">functools</a>
@@ -2016,11 +2316,19 @@ imported by:
  &#8226;   <a href="#importlib.readers">importlib.readers</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#string">string</a>
  &#8226;   <a href="#threading">threading</a>
@@ -2030,6 +2338,30 @@ imported by:
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#typing_extensions">typing_extensions</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="collections.Iterable"></a>
+  <a target="code" href="" type="text/plain"><tt>collections.Iterable</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="collections.MutableMapping"></a>
+  <a target="code" href="" type="text/plain"><tt>collections.MutableMapping</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
 
   </div>
 
@@ -2046,10 +2378,12 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.core">click.core</a>
+    <a href="#click._bashcomplete">click._bashcomplete</a>
+ &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#typer._typing">typer._typing</a>
@@ -2066,6 +2400,17 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#click._compat">click._compat</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="com"></a>
+  <a target="code" href="" type="text/plain"><tt>com</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
 
   </div>
 
@@ -2094,10 +2439,15 @@ imported by:
  &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
   </div>
@@ -2135,10 +2485,14 @@ imports:
 imported by:
     <a href="#_sre">_sre</a>
  &#8226;   <a href="#argparse">argparse</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#gettext">gettext</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#typer.utils">typer.utils</a>
  &#8226;   <a href="#weakref">weakref</a>
@@ -2206,6 +2560,9 @@ imported by:
     <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#ctypes._endian">ctypes._endian</a>
  &#8226;   <a href="#ctypes.wintypes">ctypes.wintypes</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
 
   </div>
 
@@ -2263,7 +2620,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#pprint">pprint</a>
+    <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#pprint">pprint</a>
 
   </div>
 
@@ -2288,6 +2646,10 @@ imported by:
  &#8226;   <a href="#calendar">calendar</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#typer.main">typer.main</a>
 
   </div>
@@ -2313,27 +2675,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="difflib"></a>
-  <a target="code" href="/usr/lib/python3.10/difflib.py" type="text/plain"><tt>difflib</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#collections">collections</a>
- &#8226;   <a href="#difflib">difflib</a>
- &#8226;   <a href="#heapq">heapq</a>
- &#8226;   <a href="#re">re</a>
- &#8226;   <a href="#types">types</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#difflib">difflib</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="dis"></a>
   <a target="code" href="/usr/lib/python3.10/dis.py" type="text/plain"><tt>dis</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -2349,6 +2690,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#inspect">inspect</a>
+ &#8226;   <a href="#pdb">pdb</a>
 
   </div>
 
@@ -2388,6 +2730,7 @@ imported by:
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -2607,6 +2950,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.parser">email.parser</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
 
   </div>
 
@@ -2653,6 +2997,7 @@ imports:
 imported by:
     <a href="#email">email</a>
  &#8226;   <a href="#email._policybase">email._policybase</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
 
   </div>
 
@@ -2721,7 +3066,10 @@ imported by:
     <a href="#email.contentmanager">email.contentmanager</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
  &#8226;   <a href="#email.policy">email.policy</a>
+ &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -2741,6 +3089,9 @@ imports:
   <div class="import">
 imported by:
     <a href="#email">email</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -2764,6 +3115,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.message">email.message</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
 
   </div>
 
@@ -2814,6 +3166,8 @@ imported by:
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#email.message">email.message</a>
  &#8226;   <a href="#email.policy">email.policy</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -5336,13 +5690,16 @@ imports:
   <div class="import">
 imported by:
     <a href="#ast">ast</a>
- &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#http">http</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#signal">signal</a>
  &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#typer._completion_shared">typer._completion_shared</a>
  &#8226;   <a href="#typer.main">typer.main</a>
  &#8226;   <a href="#uuid">uuid</a>
@@ -5355,14 +5712,16 @@ imported by:
   <a name="errno"></a>
   <tt>errno</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click.core">click.core</a>
+    <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.client">http.client</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#typer.core">typer.core</a>
@@ -5375,7 +5734,9 @@ imported by:
   <a name="fcntl"></a>
   <tt>fcntl</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#subprocess">subprocess</a>
+    <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
 
   </div>
 
@@ -5395,10 +5756,12 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#glob">glob</a>
+    <a href="#bdb">bdb</a>
+ &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -5426,6 +5789,27 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="ftplib"></a>
+  <a target="code" href="/usr/lib/python3.10/ftplib.py" type="text/plain"><tt>ftplib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#netrc">netrc</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="functools"></a>
   <a target="code" href="/usr/lib/python3.10/functools.py" type="text/plain"><tt>functools</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -5444,7 +5828,6 @@ imports:
 imported by:
     <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
@@ -5459,8 +5842,15 @@ imported by:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#tempfile">tempfile</a>
@@ -5524,6 +5914,9 @@ imports:
   <div class="import">
 imported by:
     <a href="#base64">base64</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#quopri">quopri</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
@@ -5549,6 +5942,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#click.termui">click.termui</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -5573,15 +5967,6 @@ imports:
   <div class="import">
 imported by:
     <a href="#argparse">argparse</a>
- &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.exceptions">click.exceptions</a>
- &#8226;   <a href="#click.formatting">click.formatting</a>
- &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
- &#8226;   <a href="#click.termui">click.termui</a>
- &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#getopt">getopt</a>
  &#8226;   <a href="#optparse">optparse</a>
  &#8226;   <a href="#typer.core">typer.core</a>
@@ -5606,7 +5991,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.utils">click.utils</a>
+    <a href="#pdb">pdb</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
   </div>
@@ -5671,6 +6056,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#random">random</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#uuid">uuid</a>
 
   </div>
@@ -5688,8 +6074,183 @@ imports:
   <div class="import">
 imported by:
     <a href="#collections">collections</a>
- &#8226;   <a href="#difflib">difflib</a>
  &#8226;   <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="html"></a>
+  <a target="code" href="/usr/lib/python3.10/html/__init__.py" type="text/plain"><tt>html</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#html.entities">html.entities</a>
+ &#8226;   <a href="#re">re</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#html.entities">html.entities</a>
+ &#8226;   <a href="#http.server">http.server</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="html.entities"></a>
+  <a target="code" href="/usr/lib/python3.10/html/entities.py" type="text/plain"><tt>html.entities</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#html">html</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#html">html</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="http"></a>
+  <a target="code" href="/usr/lib/python3.10/http/__init__.py" type="text/plain"><tt>http</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#enum">enum</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="http.client"></a>
+  <a target="code" href="/usr/lib/python3.10/http/client.py" type="text/plain"><tt>http.client</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.parser">email.parser</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#http">http</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="http.cookiejar"></a>
+  <a target="code" href="/usr/lib/python3.10/http/cookiejar.py" type="text/plain"><tt>http.cookiejar</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#calendar">calendar</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#http">http</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="http.server"></a>
+  <a target="code" href="/usr/lib/python3.10/http/server.py" type="text/plain"><tt>http.server</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#argparse">argparse</a>
+ &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#binascii">binascii</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#html">html</a>
+ &#8226;   <a href="#http">http</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#pwd">pwd</a>
+ &#8226;   <a href="#select">select</a>
+ &#8226;   <a href="#shutil">shutil</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="imp"></a>
+  <a target="code" href="/usr/lib/python3.10/imp.py" type="text/plain"><tt>imp</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_imp">_imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
+ &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -5714,7 +6275,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.decorators">click.decorators</a>
+    <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._abc">importlib._abc</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
@@ -5725,6 +6286,8 @@ imported by:
  &#8226;   <a href="#importlib.readers">importlib.readers</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
 
   </div>
 
@@ -5761,10 +6324,12 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._abc">importlib._abc</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -5791,11 +6356,13 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -5839,10 +6406,17 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#runpy">runpy</a>
 
   </div>
 
@@ -5883,8 +6457,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+    <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
  &#8226;   <a href="#importlib.metadata._collections">importlib.metadata._collections</a>
@@ -6020,6 +6593,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -6044,19 +6618,13 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#py_compile">py_compile</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#zipfile">zipfile</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="importlib_metadata"></a>
-  <a target="code" href="" type="text/plain"><tt>importlib_metadata</tt></a>
-<span class="moduletype">MissingModule</span>  <div class="import">
-imported by:
-    <a href="#click.decorators">click.decorators</a>
 
   </div>
 
@@ -6093,10 +6661,15 @@ imports:
   <div class="import">
 imported by:
     <a href="#ast">ast</a>
+ &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
  &#8226;   <a href="#typer.core">typer.core</a>
  &#8226;   <a href="#typer.main">typer.main</a>
@@ -6124,9 +6697,7 @@ imported by:
     <a href="#_compression">_compression</a>
  &#8226;   <a href="#bz2">bz2</a>
  &#8226;   <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
- &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#csv">csv</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
@@ -6138,22 +6709,35 @@ imported by:
  &#8226;   <a href="#encodings.uu_codec">encodings.uu_codec</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#lzma">lzma</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#quopri">quopri</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#tokenize">tokenize</a>
  &#8226;   <a href="#typer.models">typer.models</a>
+ &#8226;   <a href="#urllib.error">urllib.error</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#uuid">uuid</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
   </div>
@@ -6171,11 +6755,18 @@ imported by:
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._itertools">importlib.metadata._itertools</a>
  &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#reprlib">reprlib</a>
  &#8226;   <a href="#statistics">statistics</a>
@@ -6226,8 +6817,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#inspect">inspect</a>
+    <a href="#bdb">bdb</a>
+ &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -6259,6 +6853,7 @@ imported by:
  &#8226;   <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#calendar">calendar</a>
  &#8226;   <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#main.py">main.py</a>
 
@@ -6289,6 +6884,9 @@ imports:
   <div class="import">
 imported by:
     <a href="#hashlib">hashlib</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
 
   </div>
 
@@ -6321,6 +6919,8 @@ imported by:
   <tt>marshal</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -6343,14 +6943,57 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="mimetypes"></a>
+  <a target="code" href="/usr/lib/python3.10/mimetypes.py" type="text/plain"><tt>mimetypes</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_winapi">_winapi</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#winreg">winreg</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.server">http.server</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="msvcrt"></a>
   <a target="code" href="" type="text/plain"><tt>msvcrt</tt></a>
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
-    <a href="#click._termui_impl">click._termui_impl</a>
+    <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#subprocess">subprocess</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="netrc"></a>
+  <a target="code" href="/usr/lib/python3.10/netrc.py" type="text/plain"><tt>netrc</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#os">os</a>
+ &#8226;   <a href="#pwd">pwd</a>
+ &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#stat">stat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ftplib">ftplib</a>
 
   </div>
 
@@ -6390,6 +7033,24 @@ imported by:
     <a href="#main.py">main.py</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="nturl2path"></a>
+  <a target="code" href="/usr/lib/python3.10/nturl2path.py" type="text/plain"><tt>nturl2path</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#string">string</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -6441,9 +7102,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click.types">click.types</a>
- &#8226;   <a href="#collections">collections</a>
+    <a href="#collections">collections</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
@@ -6451,7 +7110,11 @@ imported by:
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#typing">typing</a>
@@ -6475,6 +7138,17 @@ imports:
   <div class="import">
 imported by:
     <a href="#uu">uu</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="ordereddict"></a>
+  <a target="code" href="" type="text/plain"><tt>ordereddict</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
 
   </div>
 
@@ -6512,12 +7186,18 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#argparse">argparse</a>
+    <a href="#_bootsubprocess">_bootsubprocess</a>
+ &#8226;   <a href="#_pyi_rth_utils">_pyi_rth_utils</a>
+ &#8226;   <a href="#argparse">argparse</a>
+ &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#bz2">bz2</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click._compat">click._compat</a>
  &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
+ &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#ctypes">ctypes</a>
@@ -6529,6 +7209,9 @@ imported by:
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#linecache">linecache</a>
@@ -6536,19 +7219,38 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#lzma">lzma</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#netrc">netrc</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#optparse">optparse</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
@@ -6560,13 +7262,364 @@ imported by:
  &#8226;   <a href="#typer.core">typer.core</a>
  &#8226;   <a href="#typer.main">typer.main</a>
  &#8226;   <a href="#typer.rich_utils">typer.rich_utils</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#utils.directory">utils.directory</a>
  &#8226;   <a href="#utils.file">utils.file</a>
  &#8226;   <a href="#utils.run_live_server">utils.run_live_server</a>
  &#8226;   <a href="#uu">uu</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/__init__.py" type="text/plain"><tt>packaging</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging._structures">packaging._structures</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._elffile"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_elffile.py" type="text/plain"><tt>packaging._elffile</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#enum">enum</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._manylinux"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_manylinux.py" type="text/plain"><tt>packaging._manylinux</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_manylinux">_manylinux</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._musllinux"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_musllinux.py" type="text/plain"><tt>packaging._musllinux</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#functools">functools</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._parser"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_parser.py" type="text/plain"><tt>packaging._parser</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#ast">ast</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._structures"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_structures.py" type="text/plain"><tt>packaging._structures</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#packaging">packaging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging._tokenizer"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/_tokenizer.py" type="text/plain"><tt>packaging._tokenizer</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#dataclasses">dataclasses</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.markers"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/markers.py" type="text/plain"><tt>packaging.markers</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.metadata"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/metadata.py" type="text/plain"><tt>packaging.metadata</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#email.feedparser">email.feedparser</a>
+ &#8226;   <a href="#email.header">email.header</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#email.parser">email.parser</a>
+ &#8226;   <a href="#email.policy">email.policy</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#typing_extensions">typing_extensions</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.requirements"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/requirements.py" type="text/plain"><tt>packaging.requirements</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.specifiers"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/specifiers.py" type="text/plain"><tt>packaging.specifiers</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#abc">abc</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.tags"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/tags.py" type="text/plain"><tt>packaging.tags</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.utils"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/utils.py" type="text/plain"><tt>packaging.utils</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="packaging.version"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/packaging/version.py" type="text/plain"><tt>packaging.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#itertools">itertools</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._structures">packaging._structures</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -6597,12 +7650,50 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.types">click.types</a>
- &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
+    <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.readers">importlib.readers</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#typer._completion_shared">typer._completion_shared</a>
  &#8226;   <a href="#typer.main">typer.main</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pdb"></a>
+  <a target="code" href="/usr/lib/python3.10/pdb.py" type="text/plain"><tt>pdb</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#bdb">bdb</a>
+ &#8226;   <a href="#cmd">cmd</a>
+ &#8226;   <a href="#code">code</a>
+ &#8226;   <a href="#dis">dis</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#readline">readline</a>
+ &#8226;   <a href="#runpy">runpy</a>
+ &#8226;   <a href="#shlex">shlex</a>
+ &#8226;   <a href="#signal">signal</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
 
   </div>
 
@@ -6649,6 +7740,507 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="pkg_resources"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/__init__.py" type="text/plain"><tt>pkg_resources</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#_imp">_imp</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#email.parser">email.parser</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#ntpath">ntpath</a>
+ &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging._structures">packaging._structures</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.__about__">pkg_resources._vendor.packaging.__about__</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+ &#8226;   <a href="#pkg_resources.extern.appdirs">pkg_resources.extern.appdirs</a>
+ &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#stat">stat</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#textwrap">textwrap</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#zipfile">zipfile</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#click.decorators">click.decorators</a>
+ &#8226;   <a href="#packaging">packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/__init__.py" type="text/plain"><tt>pkg_resources._vendor</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.appdirs"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/appdirs.py" type="text/plain"><tt>pkg_resources._vendor.appdirs</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'com.sun'">'com.sun'</a>
+ &#8226;   <a href="#'win32com.shell'">'win32com.shell'</a>
+ &#8226;   <a href="#_winreg">_winreg</a>
+ &#8226;   <a href="#array">array</a>
+ &#8226;   <a href="#com">com</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#win32api">win32api</a>
+ &#8226;   <a href="#win32com">win32com</a>
+ &#8226;   <a href="#winreg">winreg</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/__init__.py" type="text/plain"><tt>pkg_resources._vendor.packaging</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.__about__">pkg_resources._vendor.packaging.__about__</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.__about__">pkg_resources._vendor.packaging.__about__</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.__about__"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/__about__.py" type="text/plain"><tt>pkg_resources._vendor.packaging.__about__</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging._manylinux"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/_manylinux.py" type="text/plain"><tt>pkg_resources._vendor.packaging._manylinux</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_manylinux">_manylinux</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#ctypes">ctypes</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging._musllinux"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/_musllinux.py" type="text/plain"><tt>pkg_resources._vendor.packaging._musllinux</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging._structures"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/_structures.py" type="text/plain"><tt>pkg_resources._vendor.packaging._structures</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.markers"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/markers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.markers</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'pkg_resources.extern.pyparsing'">'pkg_resources.extern.pyparsing'</a>
+ &#8226;   <a href="#operator">operator</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.requirements"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py" type="text/plain"><tt>pkg_resources._vendor.packaging.requirements</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'pkg_resources.extern.pyparsing'">'pkg_resources.extern.pyparsing'</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.specifiers"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/specifiers.py" type="text/plain"><tt>pkg_resources._vendor.packaging.specifiers</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#abc">abc</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.tags"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/tags.py" type="text/plain"><tt>pkg_resources._vendor.packaging.tags</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.utils"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/utils.py" type="text/plain"><tt>pkg_resources._vendor.packaging.utils</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.packaging.version"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/version.py" type="text/plain"><tt>pkg_resources._vendor.packaging.version</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging">pkg_resources._vendor.packaging</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._structures">pkg_resources._vendor.packaging._structures</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources._vendor.pyparsing"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py" type="text/plain"><tt>pkg_resources._vendor.pyparsing</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#__builtin__">__builtin__</a>
+ &#8226;   <a href="#_thread">_thread</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#collections.Iterable">collections.Iterable</a>
+ &#8226;   <a href="#collections.MutableMapping">collections.MutableMapping</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#copy">copy</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#ordereddict">ordereddict</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources._vendor">pkg_resources._vendor</a>
+ &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sre_constants">sre_constants</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#uuid">uuid</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#weakref">weakref</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources.extern"></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/pkg_resources/extern/__init__.py" type="text/plain"><tt>pkg_resources.extern</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources.extern.appdirs">pkg_resources.extern.appdirs</a>
+ &#8226;   <a href="#pkg_resources.extern.packaging">pkg_resources.extern.packaging</a>
+ &#8226;   <a href="#sys">sys</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources.extern.appdirs"></a>
+  <a target="code" href="" type="text/plain"><tt>pkg_resources.extern.appdirs</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkg_resources.extern.packaging"></a>
+  <a target="code" href="" type="text/plain"><tt>pkg_resources.extern.packaging</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pkgutil"></a>
+  <a target="code" href="/usr/lib/python3.10/pkgutil.py" type="text/plain"><tt>pkgutil</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#collections">collections</a>
+ &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#importlib">importlib</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#marshal">marshal</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
+ &#8226;   <a href="#runpy">runpy</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="platform"></a>
   <a target="code" href="/usr/lib/python3.10/platform.py" type="text/plain"><tt>platform</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -6671,7 +8263,39 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#uuid">uuid</a>
+    <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#uuid">uuid</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="plistlib"></a>
+  <a target="code" href="/usr/lib/python3.10/plistlib.py" type="text/plain"><tt>plistlib</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#binascii">binascii</a>
+ &#8226;   <a href="#codecs">codecs</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#itertools">itertools</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#struct">struct</a>
+ &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
 
   </div>
 
@@ -6706,7 +8330,10 @@ imports:
   <div class="import">
 imported by:
     <a href="#os">os</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#utils.directory">utils.directory</a>
  &#8226;   <a href="#utils.file">utils.file</a>
@@ -6731,11 +8358,15 @@ imports:
   <div class="import">
 imported by:
     <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
   </div>
@@ -6758,7 +8389,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#pickle">pickle</a>
+    <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
 
   </div>
 
@@ -6769,6 +8403,8 @@ imported by:
   <tt>pwd</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
     <a href="#getpass">getpass</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#netrc">netrc</a>
  &#8226;   <a href="#pathlib">pathlib</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#shutil">shutil</a>
@@ -6799,6 +8435,102 @@ imports:
   <div class="import">
 imported by:
     <a href="#zipfile">zipfile</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pydoc"></a>
+  <a target="code" href="/usr/lib/python3.10/pydoc.py" type="text/plain"><tt>pydoc</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#builtins">builtins</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#email.message">email.message</a>
+ &#8226;   <a href="#getopt">getopt</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
+ &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#inspect">inspect</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#pydoc_data.topics">pydoc_data.topics</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#select">select</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#textwrap">textwrap</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#tokenize">tokenize</a>
+ &#8226;   <a href="#traceback">traceback</a>
+ &#8226;   <a href="#tty">tty</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#webbrowser">webbrowser</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pydoc_data"></a>
+  <a target="code" href="/usr/lib/python3.10/pydoc_data/__init__.py" type="text/plain"><tt>pydoc_data</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imported by:
+    <a href="#pydoc_data.topics">pydoc_data.topics</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pydoc_data.topics"></a>
+  <a target="code" href="/usr/lib/python3.10/pydoc_data/topics.py" type="text/plain"><tt>pydoc_data.topics</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pydoc_data">pydoc_data</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pydoc">pydoc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyexpat"></a>
+  <tt>pyexpat</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
+imported by:
+    <a href="#xml.parsers.expat">xml.parsers.expat</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="pyimod02_importers"></a>
+  <a target="code" href="" type="text/plain"><tt>pyimod02_importers</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
 
   </div>
 
@@ -6846,8 +8578,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#email.generator">email.generator</a>
+    <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#statistics">statistics</a>
  &#8226;   <a href="#tempfile">tempfile</a>
@@ -6878,12 +8609,11 @@ imported by:
  &#8226;   <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
- &#8226;   <a href="#click.utils">click.utils</a>
+ &#8226;   <a href="#click.parser">click.parser</a>
  &#8226;   <a href="#csv">csv</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
- &#8226;   <a href="#difflib">difflib</a>
  &#8226;   <a href="#email._encoded_words">email._encoded_words</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
@@ -6896,8 +8626,12 @@ imported by:
  &#8226;   <a href="#encodings.idna">encodings.idna</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#fractions">fractions</a>
+ &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#glob">glob</a>
+ &#8226;   <a href="#html">html</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
  &#8226;   <a href="#importlib.metadata._text">importlib.metadata._text</a>
@@ -6905,13 +8639,33 @@ imported by:
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#textwrap">textwrap</a>
  &#8226;   <a href="#tokenize">tokenize</a>
@@ -6920,7 +8674,20 @@ imported by:
  &#8226;   <a href="#typer._completion_shared">typer._completion_shared</a>
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="readline"></a>
+  <tt>readline</tt> <span class="moduletype"><tt>/usr/lib/python3.10/lib-dynload/readline.cpython-310-x86_64-linux-gnu.so</tt></span>  <div class="import">
+imported by:
+    <a href="#cmd">cmd</a>
+ &#8226;   <a href="#code">code</a>
+ &#8226;   <a href="#pdb">pdb</a>
 
   </div>
 
@@ -6938,9 +8705,11 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#collections">collections</a>
+    <a href="#bdb">bdb</a>
+ &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -6970,10 +8739,35 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="runpy"></a>
+  <a target="code" href="/usr/lib/python3.10/runpy.py" type="text/plain"><tt>runpy</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#importlib.machinery">importlib.machinery</a>
+ &#8226;   <a href="#importlib.util">importlib.util</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pdb">pdb</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="select"></a>
   <tt>select</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#selectors">selectors</a>
+    <a href="#http.server">http.server</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#subprocess">subprocess</a>
 
   </div>
@@ -6996,6 +8790,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
 
   </div>
@@ -7031,7 +8826,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.parser">click.parser</a>
+    <a href="#netrc">netrc</a>
+ &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
   </div>
@@ -7063,8 +8859,8 @@ imports:
   <div class="import">
 imported by:
     <a href="#argparse">argparse</a>
- &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click.formatting">click.formatting</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#typer">typer</a>
@@ -7087,7 +8883,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#subprocess">subprocess</a>
+    <a href="#pdb">pdb</a>
+ &#8226;   <a href="#subprocess">subprocess</a>
 
   </div>
 
@@ -7110,10 +8907,40 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#email.utils">email.utils</a>
+    <a href="#_ssl">_ssl</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#ftplib">ftplib</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="socketserver"></a>
+  <a target="code" href="/usr/lib/python3.10/socketserver.py" type="text/plain"><tt>socketserver</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#selectors">selectors</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#traceback">traceback</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.server">http.server</a>
 
   </div>
 
@@ -7150,6 +8977,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
@@ -7179,6 +9007,34 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="ssl"></a>
+  <a target="code" href="/usr/lib/python3.10/ssl.py" type="text/plain"><tt>ssl</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_ssl">_ssl</a>
+ &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#calendar">calendar</a>
+ &#8226;   <a href="#collections">collections</a>
+ &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#errno">errno</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#ftplib">ftplib</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="stat"></a>
   <a target="code" href="/usr/lib/python3.10/stat.py" type="text/plain"><tt>stat</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -7192,9 +9048,11 @@ imported by:
  &#8226;   <a href="#genericpath">genericpath</a>
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#netrc">netrc</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#tarfile">tarfile</a>
@@ -7242,11 +9100,16 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#email._encoded_words">email._encoded_words</a>
+    <a href="#cmd">cmd</a>
+ &#8226;   <a href="#email._encoded_words">email._encoded_words</a>
  &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
  &#8226;   <a href="#email.quoprimime">email.quoprimime</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#ntpath">ntpath</a>
+ &#8226;   <a href="#nturl2path">nturl2path</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -7279,11 +9142,17 @@ imports:
   <div class="import">
 imported by:
     <a href="#base64">base64</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#plistlib">plistlib</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
@@ -7319,10 +9188,16 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#typer._completion_shared">typer._completion_shared</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
@@ -7335,20 +9210,26 @@ imported by:
   <a name="sys"></a>
   <tt>sys</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#_collections_abc">_collections_abc</a>
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#_collections_abc">_collections_abc</a>
  &#8226;   <a href="#_compression">_compression</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
+ &#8226;   <a href="#_pyi_rth_utils">_pyi_rth_utils</a>
  &#8226;   <a href="#argparse">argparse</a>
  &#8226;   <a href="#ast">ast</a>
  &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#bdb">bdb</a>
  &#8226;   <a href="#calendar">calendar</a>
  &#8226;   <a href="#click._compat">click._compat</a>
  &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
  &#8226;   <a href="#click._winconsole">click._winconsole</a>
  &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#click.decorators">click.decorators</a>
  &#8226;   <a href="#click.termui">click.termui</a>
- &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
+ &#8226;   <a href="#cmd">cmd</a>
+ &#8226;   <a href="#code">code</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#contextlib">contextlib</a>
@@ -7367,11 +9248,15 @@ imported by:
  &#8226;   <a href="#encodings.utf_32">encodings.utf_32</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#fractions">fractions</a>
+ &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#getopt">getopt</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#glob">glob</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
@@ -7380,23 +9265,46 @@ imported by:
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
  &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#optparse">optparse</a>
  &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pdb">pdb</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkg_resources.extern">pkg_resources.extern</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#platform">platform</a>
  &#8226;   <a href="#posixpath">posixpath</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
+ &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
+ &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#quopri">quopri</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
@@ -7414,12 +9322,50 @@ imported by:
  &#8226;   <a href="#typing">typing</a>
  &#8226;   <a href="#typing_extensions">typing_extensions</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#uu">uu</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
+ &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sysconfig"></a>
+  <a target="code" href="/usr/lib/python3.10/sysconfig.py" type="text/plain"><tt>sysconfig</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#_imp">_imp</a>
+ &#8226;   <a href="#_sysconfigdata__x86_64-linux-gnu">_sysconfigdata__x86_64-linux-gnu</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#_aix_support">_aix_support</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -7479,7 +9425,12 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._termui_impl">click._termui_impl</a>
+    <a href="#click._compat">click._compat</a>
+ &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#urllib.response">urllib.response</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
 
   </div>
@@ -7491,6 +9442,7 @@ imported by:
   <tt>termios</tt> <span class="moduletype"><tt>/usr/lib/python3.10/lib-dynload/termios.cpython-310-x86_64-linux-gnu.so</tt></span>  <div class="import">
 imported by:
     <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#click.termui">click.termui</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#tty">tty</a>
 
@@ -7513,6 +9465,8 @@ imported by:
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
  &#8226;   <a href="#optparse">optparse</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -7541,7 +9495,11 @@ imports:
 imported by:
     <a href="#_threading_local">_threading_local</a>
  &#8226;   <a href="#click.globals">click.globals</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
  &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#webbrowser">webbrowser</a>
  &#8226;   <a href="#zipfile">zipfile</a>
@@ -7569,14 +9527,22 @@ imported by:
  &#8226;   <a href="#email.utils">email.utils</a>
  &#8226;   <a href="#gc">gc</a>
  &#8226;   <a href="#gzip">gzip</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
  &#8226;   <a href="#logging">logging</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#threading">threading</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
@@ -7613,9 +9579,12 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+    <a href="#imp">imp</a>
+ &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#linecache">linecache</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -7634,9 +9603,15 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#logging">logging</a>
+    <a href="#code">code</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pdb">pdb</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#py_compile">py_compile</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#socketserver">socketserver</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#typer.main">typer.main</a>
  &#8226;   <a href="#warnings">warnings</a>
@@ -7678,6 +9653,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
 
   </div>
 
@@ -7746,8 +9722,8 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/_completion_click7.py" type="text/plain"><tt>typer._completion_click7</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#'click._bashcomplete'">'click._bashcomplete'</a>
- &#8226;   <a href="#click">click</a>
+    <a href="#click">click</a>
+ &#8226;   <a href="#click._bashcomplete">click._bashcomplete</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#shellingham">shellingham</a>
@@ -7769,9 +9745,9 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/_completion_click8.py" type="text/plain"><tt>typer._completion_click8</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
+    <a href="#'click.shell_completion'">'click.shell_completion'</a>
+ &#8226;   <a href="#click">click</a>
  &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#shellingham">shellingham</a>
@@ -7860,8 +9836,8 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/completion.py" type="text/plain"><tt>typer.completion</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
+    <a href="#'click.shell_completion'">'click.shell_completion'</a>
+ &#8226;   <a href="#click">click</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#shellingham">shellingham</a>
  &#8226;   <a href="#sys">sys</a>
@@ -7890,11 +9866,11 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/core.py" type="text/plain"><tt>typer.core</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
+    <a href="#'click.shell_completion'">'click.shell_completion'</a>
+ &#8226;   <a href="#click">click</a>
  &#8226;   <a href="#click.core">click.core</a>
  &#8226;   <a href="#click.formatting">click.formatting</a>
  &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
  &#8226;   <a href="#click.types">click.types</a>
  &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#errno">errno</a>
@@ -7963,8 +9939,8 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/models.py" type="text/plain"><tt>typer.models</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
+    <a href="#'click.shell_completion'">'click.shell_completion'</a>
+ &#8226;   <a href="#click">click</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#io">io</a>
  &#8226;   <a href="#typer">typer</a>
@@ -7991,8 +9967,8 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/CLI-App/env/lib/python3.10/site-packages/typer/params.py" type="text/plain"><tt>typer.params</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#click">click</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
+    <a href="#'click.shell_completion'">'click.shell_completion'</a>
+ &#8226;   <a href="#click">click</a>
  &#8226;   <a href="#typer">typer</a>
  &#8226;   <a href="#typer.models">typer.models</a>
  &#8226;   <a href="#typing">typing</a>
@@ -8081,26 +10057,28 @@ imports:
   <div class="import">
 imported by:
     <a href="#_weakrefset">_weakrefset</a>
- &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.utils">click.utils</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#copy">copy</a>
  &#8226;   <a href="#ctypes">ctypes</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
- &#8226;   <a href="#difflib">difflib</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#email.headerregistry">email.headerregistry</a>
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#functools">functools</a>
+ &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib.metadata._functools">importlib.metadata._functools</a>
  &#8226;   <a href="#importlib.util">importlib.util</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#pickle">pickle</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
  &#8226;   <a href="#pprint">pprint</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#typer._typing">typer._typing</a>
  &#8226;   <a href="#typer.main">typer.main</a>
@@ -8130,24 +10108,30 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._compat">click._compat</a>
- &#8226;   <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#click._textwrap">click._textwrap</a>
- &#8226;   <a href="#click._winconsole">click._winconsole</a>
- &#8226;   <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.exceptions">click.exceptions</a>
- &#8226;   <a href="#click.formatting">click.formatting</a>
- &#8226;   <a href="#click.globals">click.globals</a>
- &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.shell_completion">click.shell_completion</a>
- &#8226;   <a href="#click.termui">click.termui</a>
- &#8226;   <a href="#click.types">click.types</a>
- &#8226;   <a href="#click.utils">click.utils</a>
- &#8226;   <a href="#functools">functools</a>
+    <a href="#functools">functools</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._meta">importlib.metadata._meta</a>
+ &#8226;   <a href="#packaging._elffile">packaging._elffile</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
+ &#8226;   <a href="#packaging._musllinux">packaging._musllinux</a>
+ &#8226;   <a href="#packaging._parser">packaging._parser</a>
+ &#8226;   <a href="#packaging._tokenizer">packaging._tokenizer</a>
+ &#8226;   <a href="#packaging.markers">packaging.markers</a>
+ &#8226;   <a href="#packaging.metadata">packaging.metadata</a>
+ &#8226;   <a href="#packaging.requirements">packaging.requirements</a>
+ &#8226;   <a href="#packaging.specifiers">packaging.specifiers</a>
+ &#8226;   <a href="#packaging.tags">packaging.tags</a>
+ &#8226;   <a href="#packaging.utils">packaging.utils</a>
+ &#8226;   <a href="#packaging.version">packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._musllinux">pkg_resources._vendor.packaging._musllinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.markers">pkg_resources._vendor.packaging.markers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.tags">pkg_resources._vendor.packaging.tags</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.utils">pkg_resources._vendor.packaging.utils</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
  &#8226;   <a href="#typer._completion_click8">typer._completion_click8</a>
  &#8226;   <a href="#typer._completion_shared">typer._completion_shared</a>
  &#8226;   <a href="#typer._typing">typer._typing</a>
@@ -8183,12 +10167,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click.core">click.core</a>
- &#8226;   <a href="#click.decorators">click.decorators</a>
- &#8226;   <a href="#click.globals">click.globals</a>
- &#8226;   <a href="#click.parser">click.parser</a>
- &#8226;   <a href="#click.types">click.types</a>
- &#8226;   <a href="#click.utils">click.utils</a>
+    <a href="#packaging.metadata">packaging.metadata</a>
  &#8226;   <a href="#typer._typing">typer._typing</a>
  &#8226;   <a href="#typer.core">typer.core</a>
  &#8226;   <a href="#typer.rich_utils">typer.rich_utils</a>
@@ -8216,8 +10195,30 @@ imported by:
   <a target="code" href="/usr/lib/python3.10/urllib/__init__.py" type="text/plain"><tt>urllib</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imported by:
-    <a href="#email._header_value_parser">email._header_value_parser</a>
+    <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#email._header_value_parser">email._header_value_parser</a>
+ &#8226;   <a href="#urllib.error">urllib.error</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#urllib.response">urllib.response</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="urllib.error"></a>
+  <a target="code" href="/usr/lib/python3.10/urllib/error.py" type="text/plain"><tt>urllib.error</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#io">io</a>
+ &#8226;   <a href="#urllib">urllib</a>
+ &#8226;   <a href="#urllib.response">urllib.response</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -8239,9 +10240,81 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#click._termui_impl">click._termui_impl</a>
- &#8226;   <a href="#email.utils">email.utils</a>
+    <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#http.server">http.server</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#nturl2path">nturl2path</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.requirements">pkg_resources._vendor.packaging.requirements</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="urllib.request"></a>
+  <a target="code" href="/usr/lib/python3.10/urllib/request.py" type="text/plain"><tt>urllib.request</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_scproxy">_scproxy</a>
+ &#8226;   <a href="#base64">base64</a>
+ &#8226;   <a href="#bisect">bisect</a>
+ &#8226;   <a href="#contextlib">contextlib</a>
+ &#8226;   <a href="#email">email</a>
+ &#8226;   <a href="#email.utils">email.utils</a>
+ &#8226;   <a href="#fnmatch">fnmatch</a>
+ &#8226;   <a href="#ftplib">ftplib</a>
+ &#8226;   <a href="#getpass">getpass</a>
+ &#8226;   <a href="#hashlib">hashlib</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#nturl2path">nturl2path</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#posixpath">posixpath</a>
+ &#8226;   <a href="#re">re</a>
+ &#8226;   <a href="#socket">socket</a>
+ &#8226;   <a href="#ssl">ssl</a>
+ &#8226;   <a href="#string">string</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#urllib">urllib</a>
+ &#8226;   <a href="#urllib.error">urllib.error</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.response">urllib.response</a>
+ &#8226;   <a href="#warnings">warnings</a>
+ &#8226;   <a href="#winreg">winreg</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="urllib.response"></a>
+  <a target="code" href="/usr/lib/python3.10/urllib/response.py" type="text/plain"><tt>urllib.response</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#urllib">urllib</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#urllib.error">urllib.error</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
 
   </div>
 
@@ -8249,7 +10322,7 @@ imported by:
 
 <div class="node">
   <a name="utils"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/__init__.py" type="text/plain"><tt>utils</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/__init__.py" type="text/plain"><tt>utils</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
 imports:
     <a href="#utils.app_structure">utils.app_structure</a>
@@ -8273,7 +10346,7 @@ imported by:
 
 <div class="node">
   <a name="utils.app_structure"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/app_structure.py" type="text/plain"><tt>utils.app_structure</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/app_structure.py" type="text/plain"><tt>utils.app_structure</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#utils">utils</a>
@@ -8290,7 +10363,7 @@ imported by:
 
 <div class="node">
   <a name="utils.default_templets"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/default_templets.py" type="text/plain"><tt>utils.default_templets</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/default_templets.py" type="text/plain"><tt>utils.default_templets</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#utils">utils</a>
@@ -8306,7 +10379,7 @@ imported by:
 
 <div class="node">
   <a name="utils.directory"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/directory.py" type="text/plain"><tt>utils.directory</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/directory.py" type="text/plain"><tt>utils.directory</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#os">os</a>
@@ -8324,7 +10397,7 @@ imported by:
 
 <div class="node">
   <a name="utils.file"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/file.py" type="text/plain"><tt>utils.file</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/file.py" type="text/plain"><tt>utils.file</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#os">os</a>
@@ -8342,7 +10415,7 @@ imported by:
 
 <div class="node">
   <a name="utils.make_app_structure"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/make_app_structure.py" type="text/plain"><tt>utils.make_app_structure</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/make_app_structure.py" type="text/plain"><tt>utils.make_app_structure</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#utils">utils</a>
@@ -8361,7 +10434,7 @@ imported by:
 
 <div class="node">
   <a name="utils.run_live_server"></a>
-  <a target="code" href="/home/shailesh/Desktop/typer_test/CLI-App/src/utils/run_live_server.py" type="text/plain"><tt>utils.run_live_server</tt></a>
+  <a target="code" href="/home/shailesh/Desktop/CLI-App/src/utils/run_live_server.py" type="text/plain"><tt>utils.run_live_server</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#os">os</a>
@@ -8418,6 +10491,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#click.types">click.types</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#typer.main">typer.main</a>
 
   </div>
@@ -8453,11 +10527,18 @@ imports:
 imported by:
     <a href="#argparse">argparse</a>
  &#8226;   <a href="#ast">ast</a>
+ &#8226;   <a href="#click._unicodefun">click._unicodefun</a>
+ &#8226;   <a href="#click.core">click.core</a>
+ &#8226;   <a href="#codeop">codeop</a>
  &#8226;   <a href="#enum">enum</a>
+ &#8226;   <a href="#ftplib">ftplib</a>
  &#8226;   <a href="#getpass">getpass</a>
  &#8226;   <a href="#gettext">gettext</a>
  &#8226;   <a href="#gzip">gzip</a>
  &#8226;   <a href="#hashlib">hashlib</a>
+ &#8226;   <a href="#http.client">http.client</a>
+ &#8226;   <a href="#http.cookiejar">http.cookiejar</a>
+ &#8226;   <a href="#imp">imp</a>
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._abc">importlib._abc</a>
  &#8226;   <a href="#importlib.abc">importlib.abc</a>
@@ -8469,17 +10550,29 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#packaging._manylinux">packaging._manylinux</a>
  &#8226;   <a href="#pathlib">pathlib</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging._manylinux">pkg_resources._vendor.packaging._manylinux</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.specifiers">pkg_resources._vendor.packaging.specifiers</a>
+ &#8226;   <a href="#pkg_resources._vendor.packaging.version">pkg_resources._vendor.packaging.version</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#runpy">runpy</a>
  &#8226;   <a href="#shlex">shlex</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
+ &#8226;   <a href="#ssl">ssl</a>
  &#8226;   <a href="#subprocess">subprocess</a>
+ &#8226;   <a href="#sysconfig">sysconfig</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#threading">threading</a>
  &#8226;   <a href="#typer.core">typer.core</a>
  &#8226;   <a href="#typing_extensions">typing_extensions</a>
  &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
  &#8226;   <a href="#zipfile">zipfile</a>
 
   </div>
@@ -8509,7 +10602,9 @@ imported by:
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
+ &#8226;   <a href="#pkg_resources._vendor.pyparsing">pkg_resources._vendor.pyparsing</a>
  &#8226;   <a href="#tempfile">tempfile</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
 
   </div>
 
@@ -8537,6 +10632,29 @@ imports:
   <div class="import">
 imported by:
     <a href="#click._termui_impl">click._termui_impl</a>
+ &#8226;   <a href="#pydoc">pydoc</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="win32api"></a>
+  <a target="code" href="" type="text/plain"><tt>win32api</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="win32com"></a>
+  <a target="code" href="" type="text/plain"><tt>win32com</tt></a>
+<span class="moduletype">MissingModule</span>  <div class="import">
+imported by:
+    <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
 
   </div>
 
@@ -8548,7 +10666,208 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
+ &#8226;   <a href="#mimetypes">mimetypes</a>
+ &#8226;   <a href="#pkg_resources._vendor.appdirs">pkg_resources._vendor.appdirs</a>
  &#8226;   <a href="#platform">platform</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/__init__.py" type="text/plain"><tt>xml</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.parsers">xml.parsers</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.parsers"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/parsers/__init__.py" type="text/plain"><tt>xml.parsers</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#xml">xml</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.parsers.expat">xml.parsers.expat</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.parsers.expat"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/parsers/expat.py" type="text/plain"><tt>xml.parsers.expat</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#pyexpat">pyexpat</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#xml.parsers">xml.parsers</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#plistlib">plistlib</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/__init__.py" type="text/plain"><tt>xml.sax</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#'org.python'">'org.python'</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#xml">xml</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.handler">xml.sax.handler</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.handler">xml.sax.handler</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax._exceptions"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/_exceptions.py" type="text/plain"><tt>xml.sax._exceptions</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#'java.lang'">'java.lang'</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax.expatreader"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/expatreader.py" type="text/plain"><tt>xml.sax.expatreader</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_weakref">_weakref</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#weakref">weakref</a>
+ &#8226;   <a href="#xml.parsers">xml.parsers</a>
+ &#8226;   <a href="#xml.parsers.expat">xml.parsers.expat</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
+ &#8226;   <a href="#xml.sax.handler">xml.sax.handler</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml">xml</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax.handler"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/handler.py" type="text/plain"><tt>xml.sax.handler</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#xml.sax">xml.sax</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax.saxutils"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/saxutils.py" type="text/plain"><tt>xml.sax.saxutils</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#codecs">codecs</a>
+ &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#urllib.parse">urllib.parse</a>
+ &#8226;   <a href="#urllib.request">urllib.request</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.handler">xml.sax.handler</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.xmlreader">xml.sax.xmlreader</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="xml.sax.xmlreader"></a>
+  <a target="code" href="/usr/lib/python3.10/xml/sax/xmlreader.py" type="text/plain"><tt>xml.sax.xmlreader</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax._exceptions">xml.sax._exceptions</a>
+ &#8226;   <a href="#xml.sax.handler">xml.sax.handler</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#xml">xml</a>
+ &#8226;   <a href="#xml.sax">xml.sax</a>
+ &#8226;   <a href="#xml.sax.expatreader">xml.sax.expatreader</a>
+ &#8226;   <a href="#xml.sax.saxutils">xml.sax.saxutils</a>
 
   </div>
 
@@ -8585,7 +10904,35 @@ imports:
 imported by:
     <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.readers">importlib.readers</a>
+ &#8226;   <a href="#pkg_resources">pkg_resources</a>
  &#8226;   <a href="#shutil">shutil</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="zipimport"></a>
+  <a target="code" href="/usr/lib/python3.10/zipimport.py" type="text/plain"><tt>zipimport</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_frozen_importlib">_frozen_importlib</a>
+ &#8226;   <a href="#_frozen_importlib_external">_frozen_importlib_external</a>
+ &#8226;   <a href="#_imp">_imp</a>
+ &#8226;   <a href="#_io">_io</a>
+ &#8226;   <a href="#_warnings">_warnings</a>
+ &#8226;   <a href="#importlib.readers">importlib.readers</a>
+ &#8226;   <a href="#marshal">marshal</a>
+ &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sys">sys</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#zlib">zlib</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#pkg_resources">pkg_resources</a>
+ &#8226;   <a href="#pkgutil">pkgutil</a>
 
   </div>
 
@@ -8595,11 +10942,13 @@ imported by:
   <a name="zlib"></a>
   <tt>zlib</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
-    <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
+    <a href="#click._winconsole">click._winconsole</a>
+ &#8226;   <a href="#encodings.zlib_codec">encodings.zlib_codec</a>
  &#8226;   <a href="#gzip">gzip</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#zipfile">zipfile</a>
+ &#8226;   <a href="#zipimport">zipimport</a>
 
   </div>
 
