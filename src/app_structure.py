@@ -17,6 +17,10 @@ py_app_structure: list = [
                 "content": None,
             },
             {
+                "name": "dependencies.py",
+                "content": None,
+            },
+            {
                 "name": "requirements.txt",
                 "content": None,
             },
