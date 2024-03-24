@@ -8,7 +8,7 @@ from default_templets import (
 )
 
 
-py_app_structure: list = [
+py_module_structure: list = [
     {
         "directory": None,
         "files": [
