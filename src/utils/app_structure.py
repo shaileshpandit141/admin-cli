@@ -105,10 +105,6 @@ py_app_structure: list = [
                 "name": "main.py",
                 "content": None,
             },
-            {
-                "name": "__main__.py",
-                "content": None,
-            },
         ],
     },
     {
