@@ -13,10 +13,6 @@ py_module_structure: list = [
         "directory": None,
         "files": [
             {
-                "name": "__init__.py",
-                "content": None,
-            },
-            {
                 "name": "README.md",
                 "content": None,
             },
@@ -39,14 +35,14 @@ py_module_structure: list = [
         ],
     },
     {
-        "directory": "src",
+        "directory": "module",
         "files": [
             {
-                "name": "main.py",
-                "content": None,
+                "name": "__init__.py",
+                "content": "from module.main import *",
             },
             {
-                "name": "__init__.py",
+                "name": "main.py",
                 "content": None,
             },
         ],
@@ -55,7 +51,71 @@ py_module_structure: list = [
         "directory": "tests",
         "files": [
             {
+                "name": "__init__.py",
+                "content": None,
+            },
+            {
                 "name": "test.py",
+                "content": None,
+            },
+        ],
+    },
+    {
+        "directory": "docs",
+        "files": [
+            {
+                "name": "index.md",
+                "content": None,
+            },
+            {
+                "name": "conf.py",
+                "content": None,
+            },
+        ],
+    },
+]
+
+
+py_app_structure: list = [
+    {
+        "directory": None,
+        "files": [
+            {
+                "name": "README.md",
+                "content": None,
+            },
+            {
+                "name": "dependencies.py",
+                "content": None,
+            },
+            {
+                "name": "requirements.txt",
+                "content": None,
+            },
+            {
+                "name": ".gitignore",
+                "content": None,
+            },
+        ],
+    },
+    {
+        "directory": "src",
+        "files": [
+            {
+                "name": "main.py",
+                "content": None,
+            },
+            {
+                "name": "__main__.py",
+                "content": None,
+            },
+        ],
+    },
+    {
+        "directory": "src/utils",
+        "files": [
+            {
+                "name": "__init__.py",
                 "content": None,
             },
         ],
