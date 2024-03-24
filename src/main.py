@@ -12,7 +12,7 @@ from utils import (
 
 # Import All App structures data.
 from app_structure import (
-    py_app_structure,
+    py_module_structure,
     frontend_app_structure,
 )
 
@@ -25,7 +25,7 @@ def create_py_app(app_name: str):
 
     if not os.path.exists(os.path.join(os.getcwd(), app_name)):
         # Creating app structure using make_app_structure function.
-        make_app_structure(app_name, py_app_structure)
+        make_app_structure(app_name, py_module_structure)
 
         # Success message.
         print(f"\nYour App has been created successfully and its name is `{app_name}`.\n")
