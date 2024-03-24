@@ -1,6 +1,6 @@
 from os import system
-from modules.directory import Directory
-from modules.file import File
+from modules import Directory
+from modules import File
 
 
 def make_app_structure(app_name: str, app_structure: list) -> None:
