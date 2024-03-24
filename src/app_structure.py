@@ -41,6 +41,10 @@ py_module_structure: list = [
                 "name": "main.py",
                 "content": None,
             },
+            {
+                "name": "__init__.py",
+                "content": None,
+            },
         ],
     },
     {
