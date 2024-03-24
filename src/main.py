@@ -4,16 +4,12 @@ from typer import Typer
 # Import os module
 import os
 
-# Import make_app_structure Function.
+# Import All utils data.
 from utils import (
     make_app_structure,
-    run_with_live_server
-)
-
-# Import All App structures data.
-from app_structure import (
+    run_live_server,
     py_module_structure,
-    frontend_app_structure,
+    frontend_app_structure
 )
 
 
@@ -44,11 +40,11 @@ def create_js_app(app_name: str):
         print(f"\nYour App has been created successfully and its name is `{app_name}`.\n")
         
         # Run your app with live-server.
-        run_with_live_server(app_name)
+        run_live_server(app_name)
     else:
         print(f"\nOops! Your entered app name already exists. Please try another name.\n")
         # Run your app with live-server.
-        run_with_live_server(app_name)
+        run_live_server(app_name)
 
 
 # Define main entry function for run app().
