@@ -13,6 +13,10 @@ py_module_structure: list = [
         "directory": None,
         "files": [
             {
+                "name": "__init__.py",
+                "content": None,
+            },
+            {
                 "name": "README.md",
                 "content": None,
             },
