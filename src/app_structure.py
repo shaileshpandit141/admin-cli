@@ -51,7 +51,7 @@ py_module_structure: list = [
         "directory": "tests",
         "files": [
             {
-                "name": "__init__.py",
+                "name": "test.py",
                 "content": None,
             },
         ],
