@@ -28,7 +28,7 @@ def create_py_app(app_name: str):
         make_app_structure(app_name, py_module_structure)
 
         # Success message.
-        print(f"\nYour App has been created successfully and its name is `{app_name}`.\n")
+        print(f"\nYour Module has been created successfully and its name is `{app_name}`.\n")
     else:
         print(f"\nOops! Your entered app name already exists. Please try another name.\n")
 
