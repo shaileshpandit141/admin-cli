@@ -1,2 +1,2 @@
-from .directory import *
-from .file import *
+from modules.directory import *
+from modules.file import *
