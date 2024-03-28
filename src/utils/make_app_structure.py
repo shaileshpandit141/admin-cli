@@ -14,9 +14,7 @@ def make_app_structure(app_name: str, app_structure: list) -> None:
         files: list = structure.get("files")
         if files is not None:
             for file_data in files:
-                file_path: str = f"{directory_name}/{file_data.get('name')}" if directory_name is not None else file_data.get(
-                    "name")
+                file_path: str = f"{directory_name}/{file_data.get('name')}" if directory_name is not None else file_data.get("name")
                 file.create(file_path)
-                content = file_data.get("content") if file_data.get(
-                    "content") is not None else ""
+                content = file_data.get("content") if file_data.get("content") is not None else ""
                 file.write(file_path, content)
