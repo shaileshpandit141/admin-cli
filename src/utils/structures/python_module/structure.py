@@ -39,7 +39,7 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
                     "content": None,
                 },
                 {
-                    "name": "test.py",
+                    "name": "confg.py",
                     "content": None,
                 },
             ],
@@ -58,14 +58,28 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
             ],
         },
         {
+            "directory": f"{module_name}/utils",
+            "files": [
+                {
+                    "name": "__init__.py",
+                    "content": None,
+                }
+            ],
+        },
+        {
+            "directory": "tests",
+            "files": [
+                {
+                    "name": "test.py",
+                    "content": None,
+                }
+            ],
+        },
+        {
             "directory": "docs",
             "files": [
                 {
                     "name": "index.md",
-                    "content": None,
-                },
-                {
-                    "name": "conf.py",
                     "content": None,
                 },
             ],

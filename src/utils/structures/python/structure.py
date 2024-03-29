@@ -26,7 +26,7 @@ def python_structure(*args, **kwargs) -> list[dict]:
                     "content": None,
                 },
                 {
-                    "name": "test.py",
+                    "name": "confg.py",
                     "content": None,
                 },
             ],
@@ -50,16 +50,21 @@ def python_structure(*args, **kwargs) -> list[dict]:
             ],
         },
         {
+            "directory": "tests",
+            "files": [
+                {
+                    "name": "test.py",
+                    "content": None,
+                }
+            ],
+        },
+        {
             "directory": "docs",
             "files": [
                 {
                     "name": "index.md",
                     "content": None,
-                },
-                {
-                    "name": "conf.py",
-                    "content": None,
-                },
+                }
             ],
         },
     ]

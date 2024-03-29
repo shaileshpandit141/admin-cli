@@ -12,7 +12,7 @@ from utils.structures.frontend.structure import (
     frontend_structure
 )
 
-from utils.structures.python_modules.structure import (
+from utils.structures.python_module.structure import (
     python_module_structure
 )
 
