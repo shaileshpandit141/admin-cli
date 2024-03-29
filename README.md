@@ -164,5 +164,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Author
 If you have any questions or need assistance with this project, please contact `Shailesh` at `shaileshpandit141@gmail.com`.
 
-Thank you for using this Admin-CLI.
+Thank you for using Admin-CLI.
 
