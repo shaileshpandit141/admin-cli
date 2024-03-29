@@ -1,3 +1,3 @@
 from os import system
 
-system("pyinstaller ./src/main.py --onefile")
+system("pyinstaller ./src/admin-cli.py --onefile")

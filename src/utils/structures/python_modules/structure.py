@@ -1,0 +1,73 @@
+from typing import Any
+from ..license_text import licence_text
+
+
+def python_module_structure(*args, **kwargs) -> list[dict]:
+
+    module_name: str | Any = kwargs.get('module_name')
+
+    main_py_content: str = (
+        f"""# Define class for {module_name} module.
+    \rclass {module_name.capitalize()}:
+    def __init__(self) -> None:
+        pass
+    """
+    )
+
+    return [
+        {
+            "directory": None,
+            "files": [
+                {
+                    "name": "LICENSE.txt",
+                    "content": licence_text,
+                },
+                {
+                    "name": "README.md",
+                    "content": None,
+                },
+                {
+                    "name": "requirements.txt",
+                    "content": None,
+                },
+                {
+                    "name": "setup.py",
+                    "content": None,
+                },
+                {
+                    "name": ".gitignore",
+                    "content": None,
+                },
+                {
+                    "name": "test.py",
+                    "content": None,
+                },
+            ],
+        },
+        {
+            "directory": module_name,
+            "files": [
+                {
+                    "name": "__init__.py",
+                    "content": f"from {module_name}.main import *",
+                },
+                {
+                    "name": "main.py",
+                    "content": main_py_content,
+                },
+            ],
+        },
+        {
+            "directory": "docs",
+            "files": [
+                {
+                    "name": "index.md",
+                    "content": None,
+                },
+                {
+                    "name": "conf.py",
+                    "content": None,
+                },
+            ],
+        },
+    ]
