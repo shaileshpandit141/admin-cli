@@ -18,7 +18,7 @@ Once installed, you can use the following commands to create different types of 
 ### Create a Vanilla JavaScript Frontend Web App
 **Command**
 ```shell
-admin-cli create-js-app <app_name>
+admin create-js-app <app_name>
 ```
 This command will create a basic boilerplate for a vanilla JavaScript frontend web app in the specified directory `<app_name>`.
 
@@ -52,7 +52,7 @@ app_name/
 ### Create a Python Module
 **Command**
 ```shell
-admin-cli create-py-module <module_name>
+admin create-py-module <module_name>
 ```
 
 This command will generate a basic Python module structure with the specified `<module_name>`.
@@ -83,7 +83,7 @@ module_name/
 ### Create a Python App
 **Command**
 ```shell
-admin-cli create-py-app <app_name>
+admin create-py-app <app_name>
 ```
 
 Use this command to create a basic Python application structure in the specified directory `<app_name>`.
@@ -114,7 +114,7 @@ app_name/
 ### Create a Flask App
 **Command**
 ```shell
-admin-cli create-flask-app <app_name>
+admin create-flask-app <app_name>
 ```
 
 This command will generate a basic Flask application structure with the specified `<app_name>`.
