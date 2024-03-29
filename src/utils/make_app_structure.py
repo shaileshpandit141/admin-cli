@@ -1,5 +1,4 @@
-from .directory import Directory
-from .file import File
+from modules import Directory, File
 
 
 def make_app_structure(app_name: str, app_structure: list) -> None:

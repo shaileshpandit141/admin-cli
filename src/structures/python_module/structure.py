@@ -16,30 +16,10 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
 
     return [
         {
-            "directory": None,
+            "directory": "docs",
             "files": [
                 {
-                    "name": "LICENSE.txt",
-                    "content": licence_text,
-                },
-                {
-                    "name": "README.md",
-                    "content": None,
-                },
-                {
-                    "name": "requirements.txt",
-                    "content": None,
-                },
-                {
-                    "name": "setup.py",
-                    "content": None,
-                },
-                {
-                    "name": ".gitignore",
-                    "content": None,
-                },
-                {
-                    "name": "confg.py",
+                    "name": "index.md",
                     "content": None,
                 },
             ],
@@ -76,10 +56,30 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
             ],
         },
         {
-            "directory": "docs",
+            "directory": None,
             "files": [
                 {
-                    "name": "index.md",
+                    "name": "LICENSE.txt",
+                    "content": licence_text,
+                },
+                {
+                    "name": "README.md",
+                    "content": None,
+                },
+                {
+                    "name": "requirements.txt",
+                    "content": None,
+                },
+                {
+                    "name": "setup.py",
+                    "content": None,
+                },
+                {
+                    "name": ".gitignore",
+                    "content": None,
+                },
+                {
+                    "name": "confg.py",
                     "content": None,
                 },
             ],

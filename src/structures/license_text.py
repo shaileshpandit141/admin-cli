@@ -1,6 +1,5 @@
 licence_text: str = (
-    """
-MIT License
+    """MIT License
 
 Copyright (c) [year] [fullname]
 

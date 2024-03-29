@@ -7,6 +7,42 @@ def python_structure(*args, **kwargs) -> list[dict]:
 
     return [
         {
+            "directory": app_name,
+            "files": [
+                {
+                    "name": "main.py",
+                    "content": None,
+                },
+            ],
+        },
+        {
+            "directory": f"{app_name}/utils",
+            "files": [
+                {
+                    "name": "__init__.py",
+                    "content": None,
+                },
+            ],
+        },
+        {
+            "directory": "docs",
+            "files": [
+                {
+                    "name": "index.md",
+                    "content": None,
+                }
+            ],
+        },
+        {
+            "directory": "tests",
+            "files": [
+                {
+                    "name": "test.py",
+                    "content": None,
+                }
+            ],
+        },
+        {
             "directory": None,
             "files": [
                 {
@@ -29,42 +65,6 @@ def python_structure(*args, **kwargs) -> list[dict]:
                     "name": "confg.py",
                     "content": None,
                 },
-            ],
-        },
-        {
-            "directory": app_name,
-            "files": [
-                {
-                    "name": "main.py",
-                    "content": None,
-                },
-            ],
-        },
-        {
-            "directory": f"{app_name}/utils",
-            "files": [
-                {
-                    "name": "__init__.py",
-                    "content": None,
-                },
-            ],
-        },
-        {
-            "directory": "tests",
-            "files": [
-                {
-                    "name": "test.py",
-                    "content": None,
-                }
-            ],
-        },
-        {
-            "directory": "docs",
-            "files": [
-                {
-                    "name": "index.md",
-                    "content": None,
-                }
             ],
         },
     ]

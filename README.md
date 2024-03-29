@@ -28,11 +28,8 @@ app_name/
 │
 ├── assets/
 │   ├── icons/
-|   |   ├── favicon.svg
-|   |   └── other_icons
+|   |   └── favicon.svg
 |   └── images/
-|       ├── test_img.png
-|       └── other_images
 |
 ├── meta/
 │   ├── config_script.js
@@ -46,10 +43,10 @@ app_name/
 │   ├── styles.css
 │   └── other_css_files
 |
+├── .gitignore
 ├── index.html
 ├── LICENSE.txt
-├── README.md
-└── Other_files
+└── README.md
 ```
 
 ### Create a Python Module
@@ -77,6 +74,7 @@ module_name/
 │   └── test.py
 |
 ├── config.py
+├── .gitignore
 ├── LICENSE.txt
 ├── README.md
 └── requirements.txt
@@ -107,6 +105,7 @@ app_name/
 │   └── test.py
 |
 ├── config.py
+├── .gitignore
 ├── LICENSE.txt
 ├── README.md
 └── requirements.txt
@@ -124,7 +123,7 @@ This command will generate a basic Flask application structure with the specifie
 ```
 flask_app_name/
 │
-├── docs
+├── docs/
 |   └── index.md
 |
 ├── src/
@@ -149,6 +148,9 @@ flask_app_name/
 │   └── test.py
 │
 ├── config.py
+├── .gitignore
+├── LICENSE.txt
+├── README.md
 ├── run.py
 └── requirements.txt
 ```

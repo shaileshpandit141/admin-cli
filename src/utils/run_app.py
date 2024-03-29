@@ -12,11 +12,11 @@ class Run:
 
         # Checking user input.
         if is_run.lower() == "y" or is_run.lower == "yes":
-            print("Now that the App is open in VS-code.\n")
+            print("The created app remains open in VS-Code.\n")
             system(f"code {root_dir_name} && cd ..")
+            print("Done.\n")
         else:
-            print('Ok.\n')
-
+            print('Done.\n')
 
     def live_server(self, app_name: str) -> None:
         # User input and checking for run created App or not.
@@ -25,7 +25,7 @@ class Run:
 
         # Checking user input.
         if is_run.lower() == "y" or is_run.lower == "yes":
-            print("Now that the App is running with live-server.\n")
+            print("The app is running with live-server.\n")
             system(f"cd ./{app_name} && live-server && cd ..")
         else:
             print('Exit.\n')

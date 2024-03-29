@@ -14,7 +14,7 @@ document.title = config.title
 
 
 # Default Styles for document.
-config_styles: str = (
+config_style: str = (
     '''/* Reset default styles. */
 * {
     box-sizing: border-box;
@@ -63,10 +63,10 @@ document: str = (
     <title>Document</title>
 
     <!-- Linked config style file. -->
-    <link rel="stylesheet" href="./meta/config_styles.css">
+    <link rel="stylesheet" href="./meta/config_style.css">
 
     <!-- Linked stylesheet files. -->
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -86,7 +86,7 @@ document: str = (
 
 
 # Default Styles for user.
-styles: str = (
+style: str = (
     '''/* CSS Font Size Variables. */
 :root {
     
