@@ -1,6 +1,5 @@
-# Importing system, makedirs, and getcwd method from os built-in module.
+# Importing makedirs, and getcwd method from os built-in module.
 from os import (
-    system,
     makedirs,
     getcwd
 )
