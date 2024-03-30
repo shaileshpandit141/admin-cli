@@ -1,4 +1,5 @@
 from typing import Any
+from ..code_formatter import CodeFormatter
 from ..license_text import licence_text
 
 
@@ -6,13 +7,14 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
 
     module_name: str | Any = kwargs.get('module_name')
 
-    main_py_content: str = (
-        f"""# Define class for {module_name} module.
-    \rclass {module_name.capitalize()}:
-    def __init__(self) -> None:
-        pass
+    main_py_content: str = f"""
+    # Define class for {module_name} module.
+    class {module_name.capitalize()}:
+        def __init__(self) -> None:
+            pass
     """
-    )
+
+    main_py_content = CodeFormatter.format(main_py_content)
 
     return [
         {
