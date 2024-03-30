@@ -37,11 +37,3 @@ class Directory:
         return is_exit
 
 
-# Define main entry function for module testing.
-def main() -> None:
-    dir: Directory = Directory("test_app")
-    dir.create("src")
-
-
-if __name__ == "__main__":
-    main()

@@ -30,14 +30,3 @@ class File:
     def write(self, file_path: str, default_data: str="") -> None:
         with open(self.get_absolute_path(file_path), "w+") as file:
             file.write(default_data)
-
-
-# Define main entry function for module testing.
-def main() -> None:
-    file: File = File("test_app")
-    file.create("src/test.py")
-    file.write("src/test.py", "print('Hello, Python')")
-
-
-if __name__ == "__main__":
-    main()
