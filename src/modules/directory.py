@@ -21,9 +21,13 @@ class Directory:
         if not self.exists(self.get_absolute_path(self.root_dir)):
             makedirs(self.root_dir)
             print()
-            system(f"cd ./{app_name} && git init && cd ..")
+            Directory.git_init(app_name)
         else:
             pass
+    
+    @staticmethod
+    def git_init(app_name: str) -> None:
+        system(f"cd ./{app_name} && git init && git add . && cd ..")
 
     def get_absolute_path(self, relative_path_name: str) -> str:
         return join(self.root_dir, relative_path_name)
