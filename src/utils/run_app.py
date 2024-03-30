@@ -5,7 +5,8 @@ class Run:
     def __init__(self) -> None:
         pass
 
-    def open_with_vscode(self, root_dir_name: str) -> None:
+    @staticmethod
+    def open_with_vscode(root_dir_name: str) -> None:
         # User input and checking for App dir open in vscode or not.
         is_run = input(":: Do you want to open it in VS-Code then press [y/n]:\n:: ")
         print()
@@ -18,7 +19,8 @@ class Run:
         else:
             print('Done.\n')
 
-    def live_server(self, app_name: str) -> None:
+    @staticmethod
+    def live_server(app_name: str) -> None:
         # User input and checking for run created App or not.
         is_run = input(":: Do you want to run it with live-server then press [y/n]:\n:: ")
         print()
