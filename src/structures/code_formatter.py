@@ -7,4 +7,4 @@ class CodeFormatter:
 
     @staticmethod
     def format(sting_code: str) -> str:
-        return dedent(sting_code)
+        return dedent(sting_code).strip("\n")
