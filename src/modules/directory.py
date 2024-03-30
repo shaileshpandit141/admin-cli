@@ -11,6 +11,9 @@ from os.path import (
     join
 )
 
+# Importing git_init class.
+from .git_init import Git
+
 
 # Define a Directory clsss.
 class Directory:
@@ -21,14 +24,15 @@ class Directory:
         if not self.exists(self.get_absolute_path(self.root_dir)):
             makedirs(self.root_dir)
             print()
-            Directory.git_init(app_name)
+
+            # Creating instance for Git class
+            git: Git = Git(app_name)
+            git.init()
+            git.add()
+            git.commit()
         else:
             pass
     
-    @staticmethod
-    def git_init(app_name: str) -> None:
-        system(f"cd ./{app_name} && git init && git add . && cd ..")
-
     def get_absolute_path(self, relative_path_name: str) -> str:
         return join(self.root_dir, relative_path_name)
 
