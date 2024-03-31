@@ -37,14 +37,14 @@ def create_js_app(app_name: str):
         make_app_structure(app_name, frontend_structure(app_name=app_name))
 
         # Success message.
-        print(f"\nYour Web App has been created successfully and its name is `{app_name}`.\n")
+        print(f"Your Web App has been created successfully and its name is `{app_name}`.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
         # Run your app with live-server.
         Run.live_server(app_name)
     else:
-        print(f"\nOops! Your entered app name already exists. Please try another name.\n")
+        print(f"Oops! Your entered app name already exists. Please try another name.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
@@ -61,16 +61,16 @@ def create_py_module(module_name: str):
         make_app_structure(module_name, python_module_structure(module_name=module_name))
 
         # Success message.
-        print(f"\nYour Python module has been created successfully and its name is `{module_name}`.\n")
+        print(f"Your Python module has been created successfully and its name is `{module_name}`.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(module_name)
     else:
-        print(f"\nOops! Your entered module name already exists. Please try another name.\n")
+        print("Oops! Your entered module name already exists. Please try another name.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(module_name)
-        print("Exit.\n")
+        print("Exit.")
 
 
 # This command is responsible for creating python app structure.
@@ -82,16 +82,16 @@ def create_py_app(app_name: str):
         make_app_structure(app_name, python_structure(app_name=app_name))
 
         # Success message.
-        print(f"\nYour Python App has been created successfully and its name is `{app_name}`.\n")
+        print(f"Your Python App has been created successfully and its name is `{app_name}`.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
     else:
-        print(f"\nOops! Your entered app name already exists. Please try another name.\n")
+        print(f"Oops! Your entered app name already exists. Please try another name.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
-        print("Exit.\n")
+        print("Exit.")
 
 
 # This command is responsible for creating Flask app structure.
@@ -103,16 +103,16 @@ def create_flask_app(app_name: str):
         make_app_structure(app_name, flask_structure(app_name=app_name))
 
         # Success message.
-        print(f"\nYour Flask App has been created successfully and its name is `{app_name}`.\n")
+        print(f"Your Flask App has been created successfully and its name is `{app_name}`.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
     else:
-        print(f"\nOops! Your entered flask app name already exists. Please try another name.\n")
+        print(f"Oops! Your entered flask app name already exists. Please try another name.")
 
         # Open your app in VS-Code.
         Run.open_with_vscode(app_name)
-        print("Exit.\n")
+        print("Exit.")
 
 
 # Define main entry function for run app().
