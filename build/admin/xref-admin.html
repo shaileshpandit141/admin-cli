@@ -155,6 +155,7 @@ imports:
  &#8226;   <a href="#keyword">keyword</a>
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
+ &#8226;   <a href="#modules">modules</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
@@ -6349,12 +6350,15 @@ imported by:
 imports:
     <a href="#modules.directory">modules.directory</a>
  &#8226;   <a href="#modules.file">modules.file</a>
+ &#8226;   <a href="#modules.git_init">modules.git_init</a>
 
   </div>
   <div class="import">
 imported by:
-    <a href="#modules.directory">modules.directory</a>
+    <a href="#admin.py">admin.py</a>
+ &#8226;   <a href="#modules.directory">modules.directory</a>
  &#8226;   <a href="#modules.file">modules.file</a>
+ &#8226;   <a href="#modules.git_init">modules.git_init</a>
  &#8226;   <a href="#utils.make_app_structure">utils.make_app_structure</a>
 
   </div>
@@ -6367,6 +6371,7 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#modules">modules</a>
+ &#8226;   <a href="#modules.git_init">modules.git_init</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#posixpath">posixpath</a>
 
@@ -6392,6 +6397,24 @@ imports:
   <div class="import">
 imported by:
     <a href="#modules">modules</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="modules.git_init"></a>
+  <a target="code" href="/home/shailesh/Desktop/Admin-CLI/src/modules/git_init.py" type="text/plain"><tt>modules.git_init</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#modules">modules</a>
+ &#8226;   <a href="#os">os</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#modules">modules</a>
+ &#8226;   <a href="#modules.directory">modules.directory</a>
 
   </div>
 
@@ -6593,6 +6616,7 @@ imported by:
  &#8226;   <a href="#lzma">lzma</a>
  &#8226;   <a href="#modules.directory">modules.directory</a>
  &#8226;   <a href="#modules.file">modules.file</a>
+ &#8226;   <a href="#modules.git_init">modules.git_init</a>
  &#8226;   <a href="#ntpath">ntpath</a>
  &#8226;   <a href="#optparse">optparse</a>
  &#8226;   <a href="#pathlib">pathlib</a>
@@ -7360,11 +7384,29 @@ imports:
   <div class="import">
 imported by:
     <a href="#admin.py">admin.py</a>
+ &#8226;   <a href="#structures.code_formatter">structures.code_formatter</a>
  &#8226;   <a href="#structures.flask">structures.flask</a>
  &#8226;   <a href="#structures.frontend">structures.frontend</a>
  &#8226;   <a href="#structures.license_text">structures.license_text</a>
  &#8226;   <a href="#structures.python">structures.python</a>
  &#8226;   <a href="#structures.python_module">structures.python_module</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="structures.code_formatter"></a>
+  <a target="code" href="/home/shailesh/Desktop/Admin-CLI/src/structures/code_formatter.py" type="text/plain"><tt>structures.code_formatter</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#structures">structures</a>
+ &#8226;   <a href="#textwrap">textwrap</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#structures.python_module.structure">structures.python_module.structure</a>
 
   </div>
 
@@ -7528,7 +7570,8 @@ imported by:
   <a target="code" href="/home/shailesh/Desktop/Admin-CLI/src/structures/python_module/structure.py" type="text/plain"><tt>structures.python_module.structure</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
-    <a href="#structures.license_text">structures.license_text</a>
+    <a href="#structures.code_formatter">structures.code_formatter</a>
+ &#8226;   <a href="#structures.license_text">structures.license_text</a>
  &#8226;   <a href="#structures.python_module">structures.python_module</a>
  &#8226;   <a href="#typing">typing</a>
 
@@ -7763,6 +7806,7 @@ imported by:
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._adapters">importlib.metadata._adapters</a>
  &#8226;   <a href="#optparse">optparse</a>
+ &#8226;   <a href="#structures.code_formatter">structures.code_formatter</a>
 
   </div>
 
