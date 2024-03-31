@@ -22,15 +22,6 @@ class Directory:
         # Creating root app directory
         if not self.exists(self.get_absolute_path(self.root_dir)):
             makedirs(self.root_dir)
-            print()
-
-            # Creating instance for Git class
-            git: Git = Git(app_name)
-            git.init()
-            git.add()
-            git.commit()
-        else:
-            pass
     
     def get_absolute_path(self, relative_path_name: str) -> str:
         return join(self.root_dir, relative_path_name)

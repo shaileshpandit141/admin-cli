@@ -18,6 +18,8 @@ from structures import (
     flask_structure,
 )
 
+from modules import Git
+
 
 app = Typer()
 
