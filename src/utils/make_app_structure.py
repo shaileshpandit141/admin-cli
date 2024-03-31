@@ -5,7 +5,6 @@ def make_app_structure(app_name: str, app_structure: list) -> None:
     dir: Directory = Directory(app_name)
     file: File = File(app_name)
 
-    print()
     for structure in app_structure:
         directory_name: str = structure.get("directory")
         if directory_name is not None:
@@ -20,7 +19,6 @@ def make_app_structure(app_name: str, app_structure: list) -> None:
                 print(f"create {file_path} file")
                 content = file_data.get("content") if file_data.get("content") is not None else ""
                 file.write(file_path, content) 
-    print()
 
     # Creating instance for Git class
     git: Git = Git(app_name)
