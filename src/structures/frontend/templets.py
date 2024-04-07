@@ -3,7 +3,7 @@
 config_script: str = (
     '''// Configure meta data object.
 const config = {
-    title: 'JS-App',
+    title: 'JS-App: Created by Admin-CLI',
 }
 
 // Setting the default document title.
