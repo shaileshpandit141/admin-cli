@@ -39,7 +39,11 @@ def flask_structure(*args, **kwargs) -> list[dict]:
                 {
                     "name": "style.css",
                     "content": None,
-                }
+                },
+                {
+                    "name": "base.css",
+                    "content": None,
+                },
             ],
         },
         {
@@ -66,6 +70,33 @@ def flask_structure(*args, **kwargs) -> list[dict]:
                     "name": "base.html",
                     "content": None
                 },
+            ],
+        },
+        {
+            "directory": "src/templates/includes",
+            "files": [
+                {
+                    "name": "header.html",
+                    "content": None
+                },
+                {
+                    "name": "footer.html",
+                    "content": None
+                },
+            ],
+        },
+        {
+            "directory": "src/templates/layoutes",
+            "files": [
+                {
+                    "name": "main-layout.html",
+                    "content": None
+                },
+            ],
+        },
+        {
+            "directory": "src/templates/pages",
+            "files": [
                 {
                     "name": "home.html",
                     "content": None
