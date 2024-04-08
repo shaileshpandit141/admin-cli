@@ -1,7 +1,11 @@
 from ..license_text import licence_text
+from .templets import FlaskTemplets
 
 
 def flask_structure(*args, **kwargs) -> list[dict]:
+
+    templets: FlaskTemplets = FlaskTemplets()
+
     return [
         {
             "directory": "docs",
@@ -17,11 +21,11 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "__init__.py",
-                    "content": None,
+                    "content": "from src.routes import app",
                 },
                 {
-                    "name": "views.py",
-                    "content": None,
+                    "name": "routes.py",
+                    "content": templets.routes_py(),
                 },
                 {
                     "name": "models.py",
@@ -37,12 +41,12 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "directory": "src/static/css",
             "files": [
                 {
-                    "name": "style.css",
-                    "content": None,
+                    "name": "base.css",
+                    "content": templets.base_style(),
                 },
                 {
-                    "name": "base.css",
-                    "content": None,
+                    "name": "global.css",
+                    "content": templets.global_style(),
                 },
             ],
         },
@@ -58,8 +62,8 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "directory": "src/static/js",
             "files": [
                 {
-                    "name": "script.js",
-                    "content": None
+                    "name": "index.js",
+                    "content": templets.index_script(),
                 },
             ],
         },
@@ -68,7 +72,7 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "base.html",
-                    "content": None
+                    "content": templets.base_document(),
                 },
             ],
         },
@@ -77,20 +81,20 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "header.html",
-                    "content": None
+                    "content": templets.header_document(),
                 },
                 {
                     "name": "footer.html",
-                    "content": None
+                    "content": templets.footer_document(),
                 },
             ],
         },
         {
-            "directory": "src/templates/layoutes",
+            "directory": "src/templates/layouts",
             "files": [
                 {
                     "name": "main-layout.html",
-                    "content": None
+                    "content": templets.main_layout_document(),
                 },
             ],
         },
@@ -99,7 +103,7 @@ def flask_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "home.html",
-                    "content": None
+                    "content": templets.home_document(),
                 },
             ],
         },
@@ -146,7 +150,7 @@ def flask_structure(*args, **kwargs) -> list[dict]:
                 },
                 {
                     "name": "run.py",
-                    "content": None
+                    "content": templets.run_py()
                 },
                 {
                     "name": "requirements.txt",
