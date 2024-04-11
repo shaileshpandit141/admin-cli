@@ -1,20 +1,13 @@
-from typing import Any
 from ..code_formatter import CodeFormatter
 from ..license_text import licence_text
+from .templets import PythonModuleTemplets
 
 
 def python_module_structure(*args, **kwargs) -> list[dict]:
 
-    module_name: str | Any = kwargs.get('module_name')
+    module_name: str = kwargs.get('module_name', "module").lower()
 
-    main_py_content: str = f"""
-    # Define class for {module_name} module.
-    class {module_name.capitalize()}:
-        def __init__(self) -> None:
-            pass
-    """
-
-    main_py_content = CodeFormatter.format(main_py_content)
+    templets: PythonModuleTemplets = PythonModuleTemplets(module_name)
 
     return [
         {
@@ -31,30 +24,12 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "__init__.py",
-                    "content": f"from {module_name}.main import *",
+                    "content": f"from .{module_name} import *",
                 },
                 {
-                    "name": "main.py",
-                    "content": main_py_content,
+                    "name": f"{module_name}.py",
+                    "content": templets.main_py(),
                 },
-            ],
-        },
-        {
-            "directory": f"{module_name}/utils",
-            "files": [
-                {
-                    "name": "__init__.py",
-                    "content": None,
-                }
-            ],
-        },
-        {
-            "directory": "tests",
-            "files": [
-                {
-                    "name": "test.py",
-                    "content": None,
-                }
             ],
         },
         {
@@ -75,6 +50,10 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
                 {
                     "name": "setup.py",
                     "content": None,
+                },
+                {
+                    "name": "test.py",
+                    "content": templets.test_py(),
                 },
                 {
                     "name": ".gitignore",
