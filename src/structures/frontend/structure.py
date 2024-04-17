@@ -1,7 +1,6 @@
 from ..license_text import licence_text
 from .templets import (
-    config_style,
-    config_script,
+    mataData,
     document,
     style,
     script,
@@ -34,19 +33,6 @@ def frontend_structure(*args, **kwargs) -> list[dict]:
             ],
         },
         {
-            "directory": "meta",
-            "files": [
-                {
-                    "name": "config_style.css",
-                    "content": config_style
-                },
-                {
-                    "name": "config_script.js",
-                    "content": config_script
-                },
-            ]
-        },
-        {
             "directory": "src",
             "files": [
                 {
@@ -73,6 +59,10 @@ def frontend_structure(*args, **kwargs) -> list[dict]:
                 {
                     "name": "index.html",
                     "content": document,
+                },
+                {
+                    "name": "meta.js",
+                    "content": mataData,
                 },
             ],
         },

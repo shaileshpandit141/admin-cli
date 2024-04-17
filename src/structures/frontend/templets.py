@@ -1,48 +1,45 @@
-
-# Default Configuration for app.
-config_script: str = (
+# Default Configuration for Meta data.
+mataData: str = (
     '''// Configure meta data object.
-const config = {
+const metaData = {
     title: 'JS-App: Created by Admin-CLI',
+    style: (`
+    <style>
+    /* Reset default styles. */
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Setting scroll-behavior. */
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        display: grid;
+        font-family: Arial, Helvetica, sans-serif;
+        height: fit-content;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        overflow-y: auto;
+    }
+
+    /* Apply font on input and button tags. */
+    input,
+    input::placeholder,
+    button {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
+    `)
 }
 
 // Setting the default document title.
-document.title = config.title
-
-'''
-)
-
-
-# Default Styles for document.
-config_style: str = (
-    '''/* Reset default styles. */
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-/* Setting scroll-behavior. */
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    display: grid;
-    font-family: Arial, Helvetica, sans-serif;
-    height: fit-content;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    overflow-y: auto;
-}
-
-/* Apply font on input and button tags. */
-input,
-input::placeholder,
-button {
-    font-family: Arial, Helvetica, sans-serif;
-}
+document.title = metaData.title
+document.head.insertAdjacentHTML("beforeend", metaData.style)
 '''
 )
 
@@ -74,8 +71,8 @@ document: str = (
     <!-- Edit here to update document. -->
     <!-- ----------------------------------------- -->
 
-    <!-- Linked config JavaScript file. -->
-    <script type="module" src="./meta/config_script.js"></script>
+    <!-- Linked mata.js file. -->
+    <script type="module" src="./meta.js"></script>
 
     <!-- Linked JavaScript files. -->
     <script type="module" src="./src/index.js"></script>
