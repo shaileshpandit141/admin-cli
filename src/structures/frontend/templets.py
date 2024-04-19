@@ -59,9 +59,6 @@ document: str = (
     <!-- Default document title. -->
     <title>Document</title>
 
-    <!-- Linked config style file. -->
-    <link rel="stylesheet" href="./meta/config_style.css">
-
     <!-- Linked stylesheet files. -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
