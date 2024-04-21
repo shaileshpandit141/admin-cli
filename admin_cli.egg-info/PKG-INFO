@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: admin-cli
+Version: 1.0.0
+Summary: Admin CLI is a command-line tool for creating boilerplate code for various types of applications.
+Home-page: https://github.com/shaileshpandit141/Admin-CLI
+Author: Shailesh
+Author-email: shaileshpandit141@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Admin CLI is a command-line tool for creating boilerplate code for various types of applications including vanilla JavaScript frontend web apps, Python modules, Python apps, and Flask apps.
+

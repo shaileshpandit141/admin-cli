@@ -1,0 +1,6 @@
+[console_scripts]
+admin create-flask-app = app:create_flask_app
+admin create-js-app = app:create_js_app
+admin create-py-app = app:create_py_app
+admin create-py-module = app:create_py_module
+

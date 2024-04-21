@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+admin_cli.egg-info/PKG-INFO
+admin_cli.egg-info/SOURCES.txt
+admin_cli.egg-info/dependency_links.txt
+admin_cli.egg-info/entry_points.txt
+admin_cli.egg-info/requires.txt
+admin_cli.egg-info/top_level.txt
+app/__init__.py
+app/admin.py
