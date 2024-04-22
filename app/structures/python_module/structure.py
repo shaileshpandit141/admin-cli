@@ -49,7 +49,7 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
                 },
                 {
                     "name": "setup.py",
-                    "content": None,
+                    "content": templets.setuptools(),
                 },
                 {
                     "name": "test.py",
@@ -57,10 +57,6 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
                 },
                 {
                     "name": ".gitignore",
-                    "content": None,
-                },
-                {
-                    "name": "confg.py",
                     "content": None,
                 },
             ],
