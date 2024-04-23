@@ -1,20 +1,8 @@
-# Importing makedirs, and getcwd method from os built-in module.
-from os import (
-    makedirs,
-    getcwd
-)
-
-# Importing exists, and join methods from os.path built-in module.
-from os.path import (
-    exists,
-    join
-)
-
-# Importing git_init class.
-from .git_init import Git
+from os import makedirs, getcwd
+from os.path import exists, join
 
 
-# Define a Directory clsss.
+# Define a Directory class.
 class Directory:
     def __init__(self, app_name: str) -> None:
         self.root_dir = join(getcwd(), app_name)

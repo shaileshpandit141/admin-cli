@@ -42,18 +42,18 @@ class PythonModuleTemplets:
             author='Author',
             author_email='author@gmail.com',
             description='Write a short description for your project.',
-            long_description='Write a short long description for your project.',
+            long_description='Write a long description for your project.',
             long_description_content_type='text/markdown',
             url='https://github.com/username/project_name',
             packages=[{self.module_name}],
             install_requires=[
                 # List of dependencies your module requires.
             ],
-            entry_points={
+            entry_points={{
                 'console_scripts': [
                     # 'command_name=module_name:function name',
                 ]
-            },
+            }},
             classifiers=[
                 'Programming Language :: Python :: 3',
                 'License :: OSI Approved :: MIT License',

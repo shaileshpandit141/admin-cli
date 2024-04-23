@@ -1,6 +1,5 @@
 # Import for expose structures outside the utils directory.
-
-from structures.flask.structure import *
-from structures.frontend.structure import *
-from structures.python.structure import *
-from structures.python_module.structure import *
+from .flask.structure import *
+from .frontend.structure import *
+from .python.structure import *
+from .python_module.structure import *

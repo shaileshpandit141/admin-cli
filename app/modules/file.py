@@ -11,7 +11,7 @@ from os.path import (
 )
 
 
-# Define a File clsss.
+# Define a File class.
 class File:
     def __init__(self, app_name: str) -> None:
         self.root_dir = join(getcwd(), app_name)
@@ -27,6 +27,6 @@ class File:
         if not self.exists(self.get_absolute_path(file_path)):
             mknod(self.get_absolute_path(file_path))
 
-    def write(self, file_path: str, default_data: str="") -> None:
+    def write(self, file_path: str, default_data: str = "") -> None:
         with open(self.get_absolute_path(file_path), "w+") as file:
             file.write(default_data)
