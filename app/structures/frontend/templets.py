@@ -226,7 +226,8 @@ const counter = document.querySelector(".counter-js")
 const testBtn = document.getElementById('test-btn-js')
 let defaultCounterState = 1
 
-testBtn.addEventListener('click', () => {
+
+function handleIncrement(event) {
     if (defaultCounterState < 10) {
         let temp = `0${defaultCounterState}`
         counter.innerHTML = temp
@@ -235,7 +236,10 @@ testBtn.addEventListener('click', () => {
         counter.innerHTML = defaultCounterState
         defaultCounterState += 1
     }
-})
+}
+
+
+testBtn.addEventListener('click', handleIncrement)
 ''')
 
 

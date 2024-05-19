@@ -7,7 +7,7 @@ class PythonModuleTemplets:
 
     def main_py(self) -> str:
 
-        class_comment = lambda name : f'''"""Implementaion of {name.capitalize()}."""'''
+        class_comment = lambda name : f'''"""Implementation of {name.capitalize()}."""'''
 
         return CodeFormatter.format(f"""   
         class {self.module_name.capitalize()}:
@@ -45,7 +45,7 @@ class PythonModuleTemplets:
             long_description='Write a long description for your project.',
             long_description_content_type='text/markdown',
             url='https://github.com/username/project_name',
-            packages=[{self.module_name}],
+            packages=['{self.module_name}'],
             install_requires=[
                 # List of dependencies your module requires.
             ],

@@ -24,7 +24,7 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "__init__.py",
-                    "content": f"from .{module_name} import *",
+                    "content": f"from .{module_name} import {module_name.capitalize()}",
                 },
                 {
                     "name": f"{module_name}.py",
