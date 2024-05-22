@@ -1,21 +1,20 @@
 from ..license_text import licence_text
-from .templets import (
-    mataData,
-    document,
-    style,
-    script,
-    favicon
-)
+from .templets import JavaScriptAppTemplets
 
 
 def frontend_structure(*args, **kwargs) -> list[dict]:
+
+    app_name: str = kwargs.get('app_name', "js-app").lower()
+
+    templets: JavaScriptAppTemplets = JavaScriptAppTemplets(app_name)
+
     return [
         {
             "directory": "assets/icons",
             "files": [
                 {
                     "name": "favicon.svg",
-                    "content": favicon
+                    "content": templets.favicon()
                 },
             ]
         },
@@ -28,7 +27,7 @@ def frontend_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "style.css",
-                    "content": style,
+                    "content": templets.style(),
                 },
             ],
         },
@@ -37,7 +36,7 @@ def frontend_structure(*args, **kwargs) -> list[dict]:
             "files": [
                 {
                     "name": "index.js",
-                    "content": script,
+                    "content": templets.script(),
                 },
             ],
         },
@@ -58,11 +57,11 @@ def frontend_structure(*args, **kwargs) -> list[dict]:
                 },
                 {
                     "name": "index.html",
-                    "content": document,
+                    "content": templets.document(),
                 },
                 {
                     "name": "meta.js",
-                    "content": mataData,
+                    "content": templets.mata_data(),
                 },
             ],
         },

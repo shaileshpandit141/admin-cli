@@ -1,5 +1,5 @@
 from sys import argv
-from modules.code_formatter import CodeFormatter
+from modules import CodeFormatter
 from command_action import CommandAction
 
 

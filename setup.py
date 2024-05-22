@@ -7,9 +7,7 @@ setup(
     author='Shailesh',
     author_email='shaileshpandit141@gmail.com',
     description='Admin CLI is a command-line tool for creating boilerplate code for various types of applications.',
-    long_description='Admin CLI is a command-line tool for creating boilerplate code for various types of '
-                     'applications including vanilla JavaScript frontend web apps, Python modules, Python apps, '
-                     'and Flask apps.',
+    long_description="""Admin CLI is a command-line tool for creating boilerplate code for various types of applications including vanilla JavaScript frontend web apps, Python modules, Python apps, and Flask apps.""",
     long_description_content_type='text/markdown',
     url='https://github.com/shaileshpandit141/Admin-CLI',
     packages=['app'],

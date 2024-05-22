@@ -1,3 +1,0 @@
-[console_scripts]
-admin-cli = app.main:main
-
