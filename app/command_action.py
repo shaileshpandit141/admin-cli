@@ -84,14 +84,11 @@ class CommandAction:
             # Success message.
             print(f"Your Web App has been created successfully and its name is `{app_name}`.")
 
-            # Open your app in VS-Code.
-            Run.open_with_vscode(app_name)
-            # Run your app with live-server.
-            Run.live_server(app_name)
+            # Open your app in VS-Code and Run your app with live-server.
+            Run.run_frontend_for_dev(app_name)
         else:
+            # Success message.
             print(f"Oops! Your entered app name already exists. Please try another name.")
 
-            # Open your app in VS-Code.
-            Run.open_with_vscode(app_name)
-            # Run your app with live-server.
-            Run.live_server(app_name)
+           # Open your app in VS-Code and Run your app with live-server.
+            Run.run_frontend_for_dev(app_name)
