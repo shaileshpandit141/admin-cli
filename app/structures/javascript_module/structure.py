@@ -1,13 +1,10 @@
-from ..code_formatter import CodeFormatter
+from typing import Any
 from ..license_text import licence_text
-from .templets import PythonModuleTemplets
 
 
-def python_module_structure(*args, **kwargs) -> list[dict]:
+def javascript_structure(*args, **kwargs) -> list[dict]:
 
-    module_name: str = kwargs.get('module_name')
-
-    templets: PythonModuleTemplets = PythonModuleTemplets(module_name)
+    module_name: str | Any = kwargs.get("module_name")
 
     return [
         {
@@ -23,12 +20,8 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
             "directory": module_name,
             "files": [
                 {
-                    "name": "__init__.py",
-                    "content": f"from .{module_name} import {module_name}",
-                },
-                {
-                    "name": f"{module_name}.py",
-                    "content": templets.main_py(),
+                    "name": 'index.js',
+                    "content": None,
                 },
             ],
         },
@@ -44,16 +37,12 @@ def python_module_structure(*args, **kwargs) -> list[dict]:
                     "content": None,
                 },
                 {
-                    "name": "requirements.txt",
+                    "name": "webpack.config.js",
                     "content": None,
                 },
                 {
-                    "name": "setup.py",
-                    "content": templets.setuptools(),
-                },
-                {
-                    "name": "test.py",
-                    "content": templets.test_py(),
+                    "name": "test.js",
+                    "content": None,
                 },
                 {
                     "name": ".gitignore",

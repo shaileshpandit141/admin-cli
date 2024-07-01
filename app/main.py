@@ -45,6 +45,24 @@ def main() -> None:
                         {"-".center(50, "-")}
                     """))
 
+            case "create-js-module":
+                if len(command_list) == 3:
+
+                    CommandAction.create_js_module(command_list[2])
+
+                else:
+                    print(CodeFormatter.format(f"""
+                        {" Error ".center(50, "-")}
+
+                        :: create-js-module       <- command
+
+                        option [required]: module_name
+
+                        Example: admin-cli create-py-module <module_name>
+
+                        {"-".center(50, "-")}
+                    """))
+
             case "create-py-app":
                 if len(command_list) == 3:
 
@@ -109,6 +127,7 @@ def main() -> None:
                     List of supported command are
 
                     :: create-py-module     -> option [required]: module_name
+                    :: create-js-module     -> option [required]: module_name
                     :: create-py-app        -> option [required]: app_name
                     :: create-flask-app     -> option [required]: app_name
                     :: create-js-app        -> option [required]: app_name
@@ -128,6 +147,7 @@ def main() -> None:
             :: admin-cli create-js-app <app_name>
             :: admin-cli create-py-app <app_name>
             :: admin-cli create-py-module <module_name>
+            :: admin-cli create-js-module <module_name>
             :: admin-cli create-flask-app <app_name>
 
             Example:
@@ -135,10 +155,12 @@ def main() -> None:
             admin-cli create-js-app js_test_app
             admin-cli create-py-app py_test_app
             admin-cli create-py-module py_test_module
+            admin-cli create-js-module js_test_module
             admin-cli create-flask-app flask_test_app
 
             {"-".center(50, "-")}
         """))
+
 
 
 if __name__ == "__main__":

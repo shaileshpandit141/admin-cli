@@ -7,10 +7,10 @@ class PythonModuleTemplets:
 
     def main_py(self) -> str:
 
-        class_comment = lambda name : f'''"""Implementation of {name.capitalize()}."""'''
+        class_comment = lambda name : f'''"""Implementation of {name}."""'''
 
         return CodeFormatter.format(f"""   
-        class {self.module_name.capitalize()}:
+        class {self.module_name}:
             {class_comment(self.module_name)}
 
             def __init__(self) -> None:
@@ -20,11 +20,11 @@ class PythonModuleTemplets:
 
     def test_py(self) -> str:
         return CodeFormatter.format(f"""
-        from {self.module_name} import {self.module_name.capitalize()}
+        from {self.module_name} import {self.module_name}
         
                                     
         def main() -> None:
-            {self.module_name}: {self.module_name.capitalize()}  = {self.module_name.capitalize()}()
+            {self.module_name.lower()}: {self.module_name}  = {self.module_name}()
 
 
         if __name__ == "__main__":

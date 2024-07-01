@@ -7,8 +7,23 @@ from structures import (
     frontend_structure,
     python_module_structure,
     python_structure,
-    flask_structure
+    flask_structure,
+    javascript_structure
 )
+
+
+def kebabCaseToPascalCase(string):
+    pascalcase = "admin_cli"
+    if string is not None:
+        if "-" in string:
+            temp = string.split("-")
+            if len(temp) >= 2:
+                pascalcase = "".join(map(lambda chunk: chunk.capitalize(), temp))
+            else:
+                pascalcase = string.capitalize()
+        else:
+            pascalcase = string.capitalize()
+    return pascalcase
 
 
 class CommandAction:
@@ -21,9 +36,30 @@ class CommandAction:
 
     @staticmethod
     def create_py_module(module_name: str):
+        module_name = kebabCaseToPascalCase(module_name)
         if not CommandAction.is_exist(module_name):
             # Creating app structure using Structure.make function.
             Structure.make(module_name, python_module_structure(module_name=module_name))
+
+            # Success message.
+            print(f"Your Python module has been created successfully and its name is `{module_name}`.")
+
+            # Open your app in VS-Code.
+            Run.open_with_vscode(module_name)
+        else:
+            print("Oops! Your entered module name already exists. Please try another name.")
+
+            # Open your app in VS-Code.
+            Run.open_with_vscode(module_name)
+            print("Exit.")
+
+    
+    @staticmethod
+    def create_js_module(module_name: str):
+        module_name = kebabCaseToPascalCase(module_name)
+        if not CommandAction.is_exist(module_name):
+            # Creating app structure using Structure.make function.
+            Structure.make(module_name, javascript_structure(module_name=module_name))
 
             # Success message.
             print(f"Your Python module has been created successfully and its name is `{module_name}`.")
